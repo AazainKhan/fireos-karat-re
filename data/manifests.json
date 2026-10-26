@@ -746,7 +746,7 @@
     [
      "service",
      "Colors",
-     "",
+     "exp",
      "android.permission.BIND_DREAM_SERVICE"
     ]
    ],
@@ -863,7 +863,7 @@
     [
      "provider",
      "com.android.bluetooth.opp.BluetoothOppProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -887,7 +887,7 @@
     [
      "receiver",
      "com.android.bluetooth.opp.BluetoothOppReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -1013,13 +1013,13 @@
     [
      "service",
      "com.android.bluetooth.avrcpcontroller.BluetoothMediaBrowserService",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.android.bluetooth.BluetoothPrefs",
-     "",
+     "exp",
      null
     ],
     [
@@ -1037,7 +1037,7 @@
     [
      "provider",
      "com.android.bluetooth.avrcpcontroller.AvrcpCoverArtProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -1085,7 +1085,7 @@
     [
      "service",
      "com.android.bluetooth.pbapclient.AuthenticationService",
-     "",
+     "exp",
      null
     ],
     [
@@ -1195,7 +1195,7 @@
     [
      "provider",
      ".BookmarkProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -1293,7 +1293,7 @@
     [
      "service",
      ".DeviceDiscoveryService",
-     "",
+     "exp",
      "android.permission.BIND_COMPANION_DEVICE_MANAGER_SERVICE"
     ],
     [
@@ -1431,7 +1431,7 @@
     [
      "service",
      ".PacService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -1454,7 +1454,7 @@
     [
      "provider",
      "PartnerBookmarksProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -2239,19 +2239,19 @@
     [
      "activity",
      "com.android.internal.app.IntentForwarderActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity-alias",
      "com.android.internal.app.ForwardIntentToParent",
-     "",
+     "exp",
      null
     ],
     [
      "activity-alias",
      "com.android.internal.app.ForwardIntentToManagedProfile",
-     "",
+     "exp",
      null
     ],
     [
@@ -2275,13 +2275,13 @@
     [
      "activity",
      "android.accounts.ChooseAccountActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "android.accounts.ChooseTypeAndAccountActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -2293,13 +2293,13 @@
     [
      "activity",
      "android.accounts.CantAddAccountActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "android.accounts.GrantCredentialsPermissionActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -2461,7 +2461,7 @@
     [
      "service",
      "com.android.server.MountServiceIdler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -2473,7 +2473,7 @@
     [
      "service",
      "com.android.server.backup.FullBackupJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -2491,7 +2491,7 @@
     [
      "service",
      "com.android.server.pm.BackgroundDexOptService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -2557,7 +2557,7 @@
     [
      "service",
      "com.android.server.autofill.AutofillCompatAccessibilityService",
-     "",
+     "exp",
      "android.permission.BIND_ACCESSIBILITY_SERVICE"
     ],
     [
@@ -2581,7 +2581,7 @@
     [
      "provider",
      "com.android.server.textclassifier.IconsContentProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -2615,7 +2615,7 @@
     "com.google.android.c2dm.intent.RECEIVE"
    ],
    "home": true,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -2634,7 +2634,7 @@
     [
      "activity",
      ".BackupRestoreConfirmation",
-     "",
+     "exp",
      null
     ]
    ],
@@ -2657,7 +2657,7 @@
     [
      "provider",
      "BlockedNumberProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -2727,31 +2727,31 @@
     [
      "provider",
      "ContactsProvider2",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "CallLogProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "ShadowCallLogProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "VoicemailContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "ContactMetadataProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -2781,7 +2781,7 @@
     [
      "provider",
      ".debug.DumpFileProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -2960,13 +2960,13 @@
     [
      "service",
      ".DynamicSystemInstallationService",
-     "",
+     "exp",
      "android.permission.INSTALL_DYNAMIC_SYSTEM"
     ],
     [
      "activity",
      ".VerificationActivity",
-     "",
+     "exp",
      "android.permission.INSTALL_DYNAMIC_SYSTEM"
     ],
     [
@@ -3005,7 +3005,7 @@
     [
      "provider",
      ".ExternalStorageProvider",
-     "",
+     "exp",
      "android.permission.MANAGE_DOCUMENTS"
     ],
     [
@@ -3017,7 +3017,7 @@
     [
      "provider",
      ".TestDocumentsProvider",
-     "",
+     "exp",
      "android.permission.MANAGE_DOCUMENTS"
     ]
    ],
@@ -3058,7 +3058,7 @@
     [
      "service",
      "com.android.location.fused.FusedLocationService",
-     "",
+     "exp",
      "android.permission.WRITE_SECURE_SETTINGS"
     ]
    ],
@@ -3108,7 +3108,7 @@
     [
      "provider",
      "com.android.providers.media.LegacyMediaProvider",
-     "",
+     "exp",
      "android.permission.WRITE_MEDIA_STORAGE"
     ]
    ],
@@ -3140,7 +3140,7 @@
     [
      "service",
      ".MmsService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -3170,7 +3170,7 @@
     [
      "service",
      "com.mediatek.tvinput.ARCInputService",
-     "",
+     "exp",
      "android.permission.BIND_TV_INPUT"
     ]
    ],
@@ -3204,7 +3204,7 @@
     [
      "provider",
      "com.android.mtp.MtpDocumentsProvider",
-     "",
+     "exp",
      "android.permission.MANAGE_DOCUMENTS"
     ],
     [
@@ -3222,7 +3222,7 @@
     [
      "receiver",
      "com.android.mtp.UsbIntentReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -3376,7 +3376,7 @@
     "android.net.INetworkStackConnector"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -3407,13 +3407,13 @@
     [
      "receiver",
      "com.android.packageinstaller.TemporaryFileManager",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.android.packageinstaller.InstallStart",
-     "",
+     "exp",
      null
     ],
     [
@@ -3443,7 +3443,7 @@
     [
      "receiver",
      "com.android.packageinstaller.InstallEventReceiver",
-     "",
+     "exp",
      "android.permission.INSTALL_PACKAGES"
     ],
     [
@@ -3467,13 +3467,13 @@
     [
      "receiver",
      "com.android.packageinstaller.UninstallEventReceiver",
-     "",
+     "exp",
      "android.permission.INSTALL_PACKAGES"
     ],
     [
      "receiver",
      "com.android.packageinstaller.PackageInstalledReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -3497,13 +3497,13 @@
     [
      "service",
      "com.android.packageinstaller.wear.WearPackageInstallerService",
-     "",
+     "exp",
      "com.google.android.permission.INSTALL_WEARABLE_PACKAGES"
     ],
     [
      "provider",
      "com.android.packageinstaller.wear.WearPackageIconProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -3540,7 +3540,7 @@
     [
      "service",
      ".ProxyService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -3563,13 +3563,13 @@
     [
      "provider",
      "com.android.providers.settings.SettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.android.providers.settings.WriteFallbackSettingsFilesJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ]
    ],
@@ -3598,7 +3598,7 @@
     [
      "service",
      ".ObbBackupService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -3828,7 +3828,7 @@
     [
      "provider",
      "com.android.shell.BugreportStorageProvider",
-     "",
+     "exp",
      "android.permission.MANAGE_DOCUMENTS"
     ],
     [
@@ -3951,7 +3951,7 @@
     [
      "provider",
      "TvProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -4011,7 +4011,7 @@
     [
      "provider",
      "UserDictionaryProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4046,19 +4046,19 @@
     [
      "activity",
      ".PlatformVpnConfirmDialog",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      ".ManageDialog",
-     "",
+     "exp",
      "android.permission.NETWORK_SETTINGS"
     ],
     [
      "activity",
      ".AlwaysOnDisconnectedDialog",
-     "",
+     "exp",
      "android.permission.NETWORK_SETTINGS"
     ]
    ],
@@ -4277,7 +4277,7 @@
     "android.intent.action.BOOT_COMPLETED"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -4328,7 +4328,7 @@
     [
      "service",
      ".AmazonSystemNoticesService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4384,31 +4384,31 @@
     [
      "service",
      "com.amazon.webview.metrics.service.AWVMetricsService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.webview.awvdeploymentservice.service.AWVArcusService",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.webview.awvdeploymentservice.service.AWVArcusContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.StartupFeatureMetadataHolder",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "org.chromium.android_webview.devui.MainActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -4426,19 +4426,19 @@
     [
      "activity",
      "org.chromium.android_webview.nonembedded.LicenseActivity",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "org.chromium.android_webview.nonembedded.LicenseContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "org.chromium.android_webview.services.DeveloperModeContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -4450,19 +4450,19 @@
     [
      "provider",
      "org.chromium.android_webview.services.SafeModeVariationsSeedContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "org.chromium.android_webview.services.SafeModeContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.VariationsSeedServer",
-     "",
+     "exp",
      null
     ],
     [
@@ -4474,43 +4474,43 @@
     [
      "service",
      "org.chromium.android_webview.services.CrashReceiverService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.AwMinidumpUploadJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "org.chromium.android_webview.services.DeveloperUiService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.SafeModeService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.AwNetLogService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.MetricsBridgeService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.services.MetricsUploadService",
-     "",
+     "exp",
      null
     ],
     [
@@ -4522,253 +4522,253 @@
     [
      "service",
      "org.chromium.android_webview.services.ComponentsProviderService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.android_webview.js_sandbox.service.JsSandboxService0",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService0",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService1",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService2",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService3",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService4",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService5",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService6",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService7",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService8",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService9",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService10",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService11",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService12",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService13",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService14",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService15",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService16",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService17",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService18",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService19",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService20",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService21",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService22",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService23",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService24",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService25",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService26",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService27",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService28",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService29",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService30",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService31",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService32",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService33",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService34",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService35",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService36",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService37",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService38",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "org.chromium.content.app.SandboxedProcessService39",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4846,7 +4846,7 @@
     [
      "activity",
      ".DummyAlarmAPIActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4877,7 +4877,7 @@
     [
      "activity",
      ".DummyEditEventActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4903,7 +4903,7 @@
     [
      "activity",
      ".DummyEditContactsActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4930,7 +4930,7 @@
     [
      "activity",
      ".DummyGalleryActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4957,7 +4957,7 @@
     [
      "activity",
      ".DummyMusicPicker",
-     "",
+     "exp",
      null
     ]
    ],
@@ -4990,13 +4990,13 @@
     [
      "activity",
      "com.amazon.dummy.settings.DummySettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.dummy.settings.NetworkRequestDialogActivity",
-     "",
+     "exp",
      "android.permission.NETWORK_SETTINGS"
     ]
    ],
@@ -5025,7 +5025,7 @@
     [
      "activity",
      "DummySoundPickerActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -5060,7 +5060,7 @@
     [
      "receiver",
      ".ResolutionCyclerReceiver",
-     "",
+     "exp",
      null
     ]
    ],
@@ -5253,7 +5253,7 @@
     [
      "service",
      ".WapPushManager",
-     "",
+     "exp",
      "com.android.smspush.WAPPUSH_MANAGER_BIND"
     ]
    ],
@@ -5287,13 +5287,13 @@
     [
      "service",
      ".calibration.CalibrationService",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      ".calibration.CalibrationActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -6002,7 +6002,7 @@
     [
      "provider",
      "com.amazon.platform.fdra.Provider",
-     "",
+     "exp",
      null
     ],
     [
@@ -6036,109 +6036,109 @@
     [
      "service",
      "com.amazon.android.service.otareboot.OTAPostApplyRebootScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.service.rota.reboot.ROTARebootScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.arcus.ArcusJobScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.UsageStats.AmazonUsageStatsScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.protometrics.AmazonProtometricsScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.fireos.dws.FavoriteAppsMetricsRecorderJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.gamemode.GameModeDailyLogScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.policy.keypolicymanager.ShortcutKeyMetricsScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.metrics.PredictedTouchMetricScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.settings.amazondropbox.LogRetentionJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.metrics.StylusDailyMetricsJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.android.server.biometrics.AmazonFingerPrintMetricsScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.amazonemmcconsumer.AmazonEmmcConsumerScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.service.perfrecoverydhelper.UserActivityDetectionScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.metrics.AdvertisingIdDailyMetricsJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.stylus.AmazonStylusDismissStatusBarIconJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.android.server.location.AmazonLocationMetricsScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.sensor.metrics.AmazonSensorManagerJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ]
    ],
@@ -6290,73 +6290,73 @@
     [
      "receiver",
      "com.amazon.whad.receiver.PlayCommandReceiver",
-     "",
+     "exp",
      "com.amazon.wha.permission.TEST_WHA"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.DirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.RegistrationReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.DeviceNameChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.CommsStateReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.InactivityReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.A2dpConnectionStateChangeReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.SkewSettingReceiver",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.WHALineInStatusChangeReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.ConnectivityChangeReceiver",
-     "",
+     "exp",
      "android.permission.ACCESS_NETWORK_STATE"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.LocalContentControlCommandsReceiver",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.DeviceProfileReceiver",
-     "",
+     "exp",
      "com.amazon.naatyam.permission.CONFIG_CHANGE_PUBLISH"
     ],
     [
@@ -6368,37 +6368,37 @@
     [
      "receiver",
      "com.amazon.whad.receiver.ArcInputSourceReciever",
-     "",
+     "exp",
      "com.amazon.tv.permission.RECEIVE_INPUT_SOURCE_CHANGE"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.HomeInputSourceReciever",
-     "",
+     "exp",
      "com.amazon.tv.permission.RECEIVE_INPUT_SOURCE_CHANGE"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.HomePressedReciever",
-     "",
+     "exp",
      "amazon.intent.permission.HOME_PRESSED"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.OneTouchPlayReciever",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.READ"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.HdmiAudioPlugReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.whad.WhadService",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
@@ -6410,13 +6410,13 @@
     [
      "service",
      "com.amazon.whad.WhadTestService",
-     "",
+     "exp",
      "com.amazon.wha.permission.TEST_WHA"
     ],
     [
      "receiver",
      "com.amazon.whad.receiver.SpeakerLatencyReceiver",
-     "",
+     "exp",
      "com.fireos.sdk.ftve.USE_SDK"
     ]
    ],
@@ -6476,7 +6476,7 @@
     "com.fireos.sdk.ftve.SPEAKER_LATENCY"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -6496,7 +6496,7 @@
     [
      "service",
      ".AmazonAccessoryConfigService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -6565,13 +6565,13 @@
     [
      "provider",
      ".AmazonUsageStatsMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
      "service",
      "com.fireos.usagestats.proxy.AmazonUsageStatsMAPProxy",
-     "",
+     "exp",
      null
     ]
    ],
@@ -6607,7 +6607,7 @@
     [
      "service",
      "com.fireos.arcus.proxy.ArcusProxy",
-     "",
+     "exp",
      "com.amazon.ArcusProxyServices.permission.BIND_TO_ARCUS_PROXY"
     ]
    ],
@@ -6642,7 +6642,7 @@
     [
      "service",
      ".AutoPairService",
-     "",
+     "exp",
      "com.amazon.permission.INVOKE_AUTO_PAIR_PERMISSION"
     ],
     [
@@ -6714,7 +6714,7 @@
     [
      "service",
      ".AutomaticTimeZoneService",
-     "",
+     "exp",
      "com.amazon.kindleautomatictimezone.permission.OOBE_ATZ_INTERACTION"
     ]
    ],
@@ -6748,7 +6748,7 @@
     [
      "service",
      ".service.KeyMapService",
-     "",
+     "exp",
      null
     ],
     [
@@ -6760,7 +6760,7 @@
     [
      "service",
      ".service.KeyMetricService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -6886,7 +6886,7 @@
     [
      "service",
      "com.amazon.connectivitycontroller.service.ConnectivityControllerService",
-     "",
+     "exp",
      "com.amazon.device.permission.CONNECTIVITY"
     ],
     [
@@ -6971,13 +6971,13 @@
     [
      "activity",
      ".ui.seven_one_one.WifiStatusActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      ".ui.more711.WifiMoreActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -7060,37 +7060,37 @@
     [
      "receiver",
      "com.amazon.wifilocker.receivers.InitialUploadReceiver",
-     "",
+     "exp",
      "android.permission.RECEIVE_BOOT_COMPLETED"
     ],
     [
      "receiver",
      "com.amazon.wifilocker.receivers.DeleteCredentialsReceiver",
-     "",
+     "exp",
      "com.amazon.wifilocker.permission.DELETE_CREDENTIALS"
     ],
     [
      "receiver",
      "com.amazon.wifilocker.receivers.OptOutReceiver",
-     "",
+     "exp",
      "com.amazon.wifilocker.permission.OPT_OUT"
     ],
     [
      "service",
      "com.amazon.wifilocker.services.SaveCredentialsService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.wifilocker.services.UploadAllCredentialsService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.wifilocker.services.DeleteCredentialsService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ]
    ],
@@ -7279,13 +7279,13 @@
     [
      "service",
      "com.amazon.device.messaging.OdotService",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.QUEUE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.device.messaging.GlobalSyncReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
@@ -7297,7 +7297,7 @@
     [
      "receiver",
      "com.amazon.device.messaging.MessageProcessingSchedulerService$PersistenceReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.permission.WAKE_PERSISTENT_SERVICES"
     ],
     [
@@ -7321,7 +7321,7 @@
     [
      "receiver",
      "com.amazon.device.messaging.push.TCommMessageListenerService$TCommMessageReceiver",
-     "",
+     "exp",
      "amazon.permission.DISPATCH_TCOMM_MESSAGE"
     ],
     [
@@ -7339,25 +7339,25 @@
     [
      "service",
      "com.amazon.device.messaging.ADMRegistrationService",
-     "",
+     "exp",
      "com.amazon.device.messaging.permission.RECEIVE"
     ],
     [
      "provider",
      "com.amazon.device.messaging.test.ADMEnqueuerProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.device.messaging.ADMRegistrationProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.device.messaging.PrivateADMRegistrationService$ADMRegistrationReceiver",
-     "",
+     "exp",
      "com.amazon.device.messaging.permission.RECEIVE"
     ],
     [
@@ -7387,7 +7387,7 @@
     [
      "receiver",
      "com.amazon.device.messaging.TodoV1ResponseHandlerService$TodoV1HandledReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -7411,13 +7411,13 @@
     [
      "service",
      "com.amazon.device.messaging.TodoService",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "service",
      "com.amazon.device.messaging.GetMessagesWithDeviceInfoHandlerService",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -7435,7 +7435,7 @@
     [
      "receiver",
      "com.amazon.device.messaging.ADMMessageHandler$Receiver",
-     "",
+     "exp",
      "com.amazon.device.messaging.permission.SEND"
     ],
     [
@@ -7501,25 +7501,25 @@
     [
      "receiver",
      "com.amazon.device.messaging.receiver.StageSwitchReceiver",
-     "",
+     "exp",
      "com.amazon.device.environment.permission.SWITCH_STAGE"
     ],
     [
      "service",
      "com.amazon.device.messaging.BinderDispatcher$BinderDispatchJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.device.messaging.CloudMessagingService",
-     "",
+     "exp",
      "com.amazon.device.messaging.permission.CLOUD_MESSAGING"
     ],
     [
      "service",
      "com.amazon.device.messaging.MessagingConnectivityService",
-     "",
+     "exp",
      null
     ],
     [
@@ -7531,13 +7531,13 @@
     [
      "receiver",
      "com.amazon.device.messaging.LifecycleEventService$LifecycleEventReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.device.messaging.PrivateADMSubscriptionService$ADMSubscriptionReceiver",
-     "",
+     "exp",
      "com.amazon.device.messaging.permission.RECEIVE"
     ],
     [
@@ -7694,7 +7694,7 @@
     [
      "service",
      "com.amazon.device.software.ota.override.OTAOverrideJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ]
    ],
@@ -7804,7 +7804,7 @@
     [
      "service",
      "com.amazon.device.software.ota.OtaService",
-     "",
+     "exp",
      "com.amazon.dcp.ota.permission.CONTROLLER"
     ],
     [
@@ -7816,25 +7816,25 @@
     [
      "receiver",
      "com.amazon.device.software.ota.OTASyncReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
      "receiver",
      "com.amazon.device.software.ota.OTAReplacedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.device.software.ota.OTADeferredOSInstallReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.ota.permission.CONTROLLER"
     ],
     [
      "receiver",
      "com.amazon.device.software.ota.OTACheckForUpdatesReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.ota.permission.CONTROLLER"
     ],
     [
@@ -7864,25 +7864,25 @@
     [
      "service",
      "com.amazon.device.software.ota.OTAJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.device.software.ota.AmzCallbackService",
-     "",
+     "exp",
      "com.lab126.downloads.DOWNLOAD_CALLBACK_SVC"
     ],
     [
      "activity",
      "com.amazon.device.software.ota.dx.OtaDashboardActivity",
-     "",
+     "exp",
      "com.amazon.dcp.permission.DISPLAY_DEBUG_UI"
     ],
     [
      "provider",
      "com.amazon.device.software.ota.contentprovider.MaintenanceWindowProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -7956,7 +7956,7 @@
     [
      "activity",
      "com.amazon.cast.sink.DisplayMirroringSinkActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -8013,7 +8013,7 @@
     [
      "activity",
      "com.amazon.compatibility.enforcer.CompatibilityResolverActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -8107,43 +8107,43 @@
     [
      "provider",
      ".DownloadProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      ".DownloadStorageProvider",
-     "",
+     "exp",
      "android.permission.MANAGE_DOCUMENTS"
     ],
     [
      "service",
      ".DownloadJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      ".DownloadIdleService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      ".MediaScanTriggerJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      ".DownloadMonitorService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      ".DownloadService",
-     "",
+     "exp",
      "com.lab126.downloads.DOWNLOAD_SVC_CLIENT_CONNECT"
     ],
     [
@@ -8259,7 +8259,7 @@
     [
      "service",
      "com.amazon.awvflingreceiver.StyledMediaPlayerService",
-     "",
+     "exp",
      null
     ],
     [
@@ -8434,7 +8434,7 @@
     [
      "service",
      "com.android.systemui.SystemUIService",
-     "",
+     "exp",
      null
     ],
     [
@@ -8464,7 +8464,7 @@
     [
      "receiver",
      "com.android.systemui.AccountPropertyChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed"
     ],
     [
@@ -8500,7 +8500,7 @@
     [
      "service",
      "com.android.systemui.ImageWallpaper",
-     "",
+     "exp",
      "android.permission.BIND_WALLPAPER"
     ],
     [
@@ -8512,13 +8512,13 @@
     [
      "activity",
      "com.android.systemui.tuner.TunerActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity-alias",
      "com.android.systemui.DemoMode",
-     "",
+     "exp",
      null
     ],
     [
@@ -8554,31 +8554,31 @@
     [
      "activity",
      "com.android.systemui.usb.UsbConfirmActivity",
-     "",
+     "exp",
      "android.permission.MANAGE_USB"
     ],
     [
      "activity",
      "com.android.systemui.usb.UsbPermissionActivity",
-     "",
+     "exp",
      "android.permission.MANAGE_USB"
     ],
     [
      "activity",
      "com.android.systemui.usb.UsbResolverActivity",
-     "",
+     "exp",
      "android.permission.MANAGE_USB"
     ],
     [
      "activity",
      "com.android.systemui.usb.UsbAccessoryUriActivity",
-     "",
+     "exp",
      "android.permission.MANAGE_USB"
     ],
     [
      "activity",
      "com.android.systemui.usb.UsbContaminantActivity",
-     "",
+     "exp",
      "android.permission.MANAGE_USB"
     ],
     [
@@ -8590,7 +8590,7 @@
     [
      "activity-alias",
      "com.android.systemui.UsbDebuggingActivityAlias",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -8608,7 +8608,7 @@
     [
      "activity-alias",
      "com.android.systemui.WifiDebuggingActivityAlias",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -8620,13 +8620,13 @@
     [
      "activity",
      "com.android.systemui.net.NetworkOverLimitActivity",
-     "",
+     "exp",
      "android.permission.MANAGE_NETWORK_POLICY"
     ],
     [
      "activity",
      "com.android.systemui.media.MediaProjectionPermissionActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -8650,19 +8650,19 @@
     [
      "activity",
      "com.android.systemui.DessertCase",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.android.systemui.egg.MLandActivity",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.android.systemui.DessertCaseDream",
-     "",
+     "exp",
      "android.permission.BIND_DREAM_SERVICE"
     ],
     [
@@ -8674,13 +8674,13 @@
     [
      "activity",
      "com.android.systemui.Somnambulator",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.android.systemui.settings.BrightnessDialog",
-     "",
+     "exp",
      null
     ],
     [
@@ -8728,13 +8728,13 @@
     [
      "activity",
      "com.android.systemui.controls.management.ControlsRequestDialog",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.android.systemui.doze.DozeService",
-     "",
+     "exp",
      "android.permission.BIND_DREAM_SERVICE"
     ],
     [
@@ -8752,7 +8752,7 @@
     [
      "provider",
      "com.android.systemui.keyguard.KeyguardSliceProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -8814,7 +8814,7 @@
     "com.android.systemui.tv.pip.SHOW_PIP_MENU"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -8854,25 +8854,25 @@
     [
      "service",
      "com.amazon.notification.AmazonNotificationService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      ".notification.AmazonNotificationManagerService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.media.recommendations.RecommendationManagerService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.media.recommendations.RecommendationConsumerService",
-     "",
+     "exp",
      null
     ],
     [
@@ -8890,13 +8890,13 @@
     [
      "receiver",
      "com.amazon.notification.ModeSwitchOverlayReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.device.sale.api.database.providers.SaleProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -8957,7 +8957,7 @@
     [
      "service",
      ".service.HybridAdIdService",
-     "",
+     "exp",
      null
     ],
     [
@@ -8969,7 +8969,7 @@
     [
      "receiver",
      ".service.UpdateMauiReceiver",
-     "",
+     "exp",
      null
     ]
    ],
@@ -9094,19 +9094,19 @@
     [
      "service",
      ".GetBestVoiceForDownloadService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      ".GetBestVoiceForLocaleService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      ".GetBestVoiceForDownloadJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -9118,13 +9118,13 @@
     [
      "service",
      ".ExtensionDownloadJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      ".ExtensionRemovalJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -9148,7 +9148,7 @@
     [
      "service",
      ".UpdateVoicesKeptAfterFactoryResetJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -9160,13 +9160,13 @@
     [
      "service",
      ".AfterOOBECleanUpService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      ".AfterOOBECleanUpService$AfterOOBECleanUpEventReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -9317,7 +9317,7 @@
     [
      "service",
      "com.amazon.logan.LoganAccessibilityService",
-     "",
+     "exp",
      "android.permission.BIND_ACCESSIBILITY_SERVICE"
     ],
     [
@@ -9329,7 +9329,7 @@
     [
      "receiver",
      "com.amazon.logan.metrics.LaunchUsageMetricsReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -9383,127 +9383,127 @@
     [
      "service",
      "com.amazon.logan.utils.AccessibilityToggleService",
-     "",
+     "exp",
      "com.amazon.logan.permission.USE_ACCESSIBILITY_SERVICES"
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.ResetSpeechReceiver",
-     "",
+     "exp",
      "com.amazon.logan.permission.USE_ACCESSIBILITY_SERVICES"
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.ProfileReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.HudReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.PrismReceiver",
-     "",
+     "exp",
      "com.amazon.prism.android.service.permission.SEND_PROFILE_EVENTS"
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.AccountDeregisterReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.HighContrastTextReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.logan.utils.HearingAidBannerService",
-     "",
+     "exp",
      "com.amazon.logan.permission.USE_ACCESSIBILITY_SERVICES"
     ],
     [
      "receiver",
      "com.amazon.logan.utils.ScreenMagnifierReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.utils.ScreenMagnifierActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.utils.ScreenMagnifierLockActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.utils.DeviceEncryptionDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.logan.provider.LoganProvider",
-     "",
+     "exp",
      "com.amazon.logan.provider.WRITE_PREFS"
     ],
     [
      "provider",
      "com.amazon.logan.provider.AlexaVoiceSettingsProvider",
-     "",
+     "exp",
      "com.amazon.logan.permission.ACCESS_LOGAN_ALEXA_VOICE_SETTINGS_PROVIDER"
     ],
     [
      "service",
      "com.amazon.logan.speech.DownloadVoiceDataService",
-     "",
+     "exp",
      "com.amazon.devicea11y.permission.ACCESS_DOWNLOAD_VOICE_DATA_SERVICE"
     ],
     [
      "activity",
      "com.amazon.logan.TVLoganControlPanelActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.TextBannerControlPanelActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.ScreenMagnifierControlPanelActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.utils.TextBannerTutorialActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.tutorial.TVTutorialWelcomeActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.logan.tutorial.TVTutorialIntroActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -9533,19 +9533,19 @@
     [
      "provider",
      "com.amazon.logan.provider.MultiUserA11yProvider",
-     "",
+     "exp",
      "com.amazon.logan.permission.MULTI_USER_PROVIDER"
     ],
     [
      "service",
      "com.amazon.logan.settingssearch.AccessibilitySettingsSearchProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.INDEX_SETTINGS_SEARCH_DATA"
     ],
     [
      "receiver",
      "com.amazon.logan.fireos.KidsProfileReceiver",
-     "",
+     "exp",
      null
     ]
    ],
@@ -9615,7 +9615,7 @@
     [
      "service",
      "com.amazon.client.metrics.AndroidMetricsServiceAdapter",
-     "",
+     "exp",
      null
     ]
    ],
@@ -9758,19 +9758,19 @@
     [
      "service",
      "com.amazon.ssm.OverlayService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.ssm.ContentProviderService",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.ssm.ContentProvider.SSMProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -9794,7 +9794,7 @@
     [
      "activity",
      "com.amazon.ssm.ConnectivityCheck",
-     "",
+     "exp",
      null
     ],
     [
@@ -9806,7 +9806,7 @@
     [
      "service",
      "com.amazon.ssm.IntentStartService",
-     "",
+     "exp",
      null
     ],
     [
@@ -9859,13 +9859,13 @@
     [
      "service",
      ".TIFObserverService",
-     "",
+     "exp",
      "com.amazon.tifobserver.permission.TIF_OBSERVER_FORCE_START"
     ],
     [
      "receiver",
      ".BootCompleteReceiver",
-     "",
+     "exp",
      null
     ]
    ],
@@ -9874,7 +9874,7 @@
     "android.intent.action.BOOT_COMPLETED"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -9896,19 +9896,19 @@
     [
      "receiver",
      ".TiramisuBootSupportReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      ".TiramisuPackageInstallService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      ".TiramisuPackageFactoryResetBackupService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -9964,7 +9964,7 @@
     [
      "service",
      ".UXControllerService",
-     "",
+     "exp",
      "com.amazon.device.permission.UX_CONTROLLER"
     ],
     [
@@ -9999,7 +9999,7 @@
     [
      "service",
      ".NotificationService",
-     "",
+     "exp",
      "com.amazon.device.permission.UX_NOTIFICATION"
     ]
    ],
@@ -10120,13 +10120,13 @@
     [
      "provider",
      "com.amazon.whisperlink.core.android.WhisperLinkDeviceInfoProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.whisperlink.core.android.WhisperLinkSettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -10156,13 +10156,13 @@
     [
      "service",
      "com.amazon.whisperlink.core.android.WhisperLinkCoreService",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.whisperlink.core.android.WPMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
@@ -10257,7 +10257,7 @@
     [
      "service",
      "com.amazon.whisperplay.service.install.InstallServiceHandler",
-     "",
+     "exp",
      null
     ]
    ],
@@ -10437,13 +10437,13 @@
     [
      "receiver",
      "com.amazon.aca.avt.PackageRecencyReceiver",
-     "",
+     "exp",
      "com.amazon.permission.UPDATE_PACKAGE_RECENCY_FILTER"
     ],
     [
      "receiver",
      "com.amazon.aca.LockerSyncBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia"
     ],
     [
@@ -10455,13 +10455,13 @@
     [
      "service",
      "com.amazon.aca.csf.AuthenticationSyncService",
-     "",
+     "exp",
      "signature"
     ],
     [
      "provider",
      "com.amazon.aca.csf.AuthenticationSyncAdapter$AuthenticationStubContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -10491,19 +10491,19 @@
     [
      "provider",
      "com.amazon.aca.cues.provider.HintsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.aca.instahints.provider.InstaHintsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.aca.notification.receiver.S2DMReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -10521,7 +10521,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -10575,7 +10575,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -10587,7 +10587,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ]
    ],
@@ -10719,7 +10719,7 @@
     [
      "receiver",
      "com.amazon.adep.nimh.device.management.userInteraction.FTVEventReceiver",
-     "",
+     "exp",
      "com.amazon.adep.permission.HARMFUL_APP"
     ],
     [
@@ -10761,19 +10761,19 @@
     [
      "receiver",
      "com.amazon.adep.nimh.device.management.SecurityEventReceiver",
-     "",
+     "exp",
      "com.amazon.adep.permission.GET_INFORMATION"
     ],
     [
      "receiver",
      "com.amazon.adep.nimh.receiver.PackageVerificationReceiver",
-     "",
+     "exp",
      "android.permission.BIND_PACKAGE_VERIFIER"
     ],
     [
      "provider",
      "com.amazon.adep.providers.AdepContentProvider",
-     "",
+     "exp",
      "com.amazon.adep.permission.CONTENT_PROVIDER_READ"
     ],
     [
@@ -10791,7 +10791,7 @@
     [
      "activity",
      "com.amazon.adep.nimh.ux.activity.FTVDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -10809,7 +10809,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -10863,7 +10863,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -11007,7 +11007,7 @@
     [
      "activity",
      "com.amazon.alexa.datastore.app.SarasDataStoreStubActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -11083,13 +11083,13 @@
     [
      "service",
      "com.amazon.alexa.externalmediaplayeragent.ExternalMediaPlayerAgentService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.alexa.externalmediaplayeragent.receivers.DirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -11101,55 +11101,55 @@
     [
      "receiver",
      "com.amazon.alexa.externalmediaplayeragent.receivers.AlexaConnectivityReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.alexa.externalmediaplayeragent.receivers.ServiceProviderBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.alexa.externalmediaplayeragent.receivers.PackageUpdatedBroadcastReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.alexa.externalmediaplayeragent.receivers.ClustersChangedReceiver",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "provider",
      "com.amazon.alexa.externalmediaplayeragent.players.PlayerRegistryContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.AuthPortalUIActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.AuthChallengeHandleActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.ActorSignUpAndEnrollActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.ActorEnrollActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
@@ -11295,13 +11295,13 @@
     [
      "service",
      "com.amazon.appaccesskeyprovider.service.ApplicationService",
-     "",
+     "exp",
      "com.amazon.customappaccesskeyprovider.permission.ACCESS_KEY"
     ],
     [
      "service",
      "com.amazon.appaccesskeyprovider.service.SystemApplicationService",
-     "",
+     "exp",
      "com.amazon.permission.RESET_PASSWORD"
     ]
    ],
@@ -11428,25 +11428,25 @@
     [
      "activity",
      "com.amazon.aria.AriaActivity",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "activity",
      "com.amazon.aria.widget.AriaWidgetActivity",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.aria.receiver.AriaBroadcastReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.aria.receiver.PackageStateChangeBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.aria.permission.RECEIVE_PACKAGE_STATE_CHANGE"
     ],
     [
@@ -11458,25 +11458,25 @@
     [
      "receiver",
      "com.amazon.aria.receiver.LoadingOverlayBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.aria.permission.REQUEST_LOADING_OVERLAY"
     ],
     [
      "service",
      "com.amazon.aria.KeepAliveService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "service",
      "com.amazon.aria.LoadingOverlayService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "provider",
      "com.amazon.aria.provider.ProgramContentProvider",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -11488,19 +11488,19 @@
     [
      "service",
      "com.amazon.apl.extension.e2ee.E2EEncryption",
-     "",
+     "exp",
      "com.amazon.alexa.extensions.permission.EXTENSION"
     ],
     [
      "receiver",
      "com.amazon.alexa.transcriptionextension.receiver.LivePreviewReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.aria.openurl.CustomOpenUrlResultReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -11518,13 +11518,13 @@
     [
      "receiver",
      "com.amazon.conversation.broadcastreceivers.DirectiveBroadcastReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "activity",
      "com.amazon.conversation.activity.AlexaPlusDeepLinkActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -11635,7 +11635,7 @@
     [
      "activity",
      "com.amazon.audiohome.MainActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -11672,19 +11672,19 @@
     [
      "activity",
      "com.amazon.avls.experience.WelcomeActivity",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "activity",
      "com.amazon.avls.experience.SyncActivity",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "activity",
      "com.amazon.avls.experience.calibration.CalibrationActivity",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ]
    ],
@@ -11725,25 +11725,25 @@
     [
      "activity",
      "com.amazon.sinkcapabilities.activities.DolbyPlaybackActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.sinkcapabilities.activities.CapabilitiesDisplayActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.sinkcapabilities.activities.TroubleshootingSelectionActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.sinkcapabilities.activities.NoAudioTroubleshootingActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -11761,7 +11761,7 @@
     [
      "activity",
      "com.amazon.avsyncslider.MainActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -11842,7 +11842,7 @@
     [
      "activity-alias",
      "com.amazon.music.MainActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -12022,7 +12022,7 @@
     [
      "receiver",
      "com.amazon.ceviche.boot.completed.EspressoShotReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -12070,25 +12070,25 @@
     [
      "service",
      "com.amazon.ceviche.configuration.AppConfigurationMessengerService",
-     "",
+     "exp",
      "com.amazon.ceviche.permission.TRACK_EVENTS"
     ],
     [
      "service",
      "com.amazon.ceviche.TrackEventsService",
-     "",
+     "exp",
      "com.amazon.ceviche.permission.TRACK_EVENTS"
     ],
     [
      "service",
      "com.amazon.ceviche.configuration.ForceSyncRemoteConfigurationService",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.ceviche.TrackEventsContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -12100,7 +12100,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -12249,7 +12249,7 @@
     [
      "activity-alias",
      "com.amazon.cloud9.browsing.BrowserActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -12389,13 +12389,13 @@
     [
      "activity",
      "com.amazon.csm.htmlruntime.activity.HtmlRuntimeActivity",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "service",
      "com.amazon.csm.htmlruntime.services.HtmlRuntimeService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -12437,7 +12437,7 @@
     [
      "service",
      "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
-     "",
+     "exp",
      null
     ],
     [
@@ -12546,7 +12546,7 @@
     [
      "provider",
      "com.amazon.d3.content.DemoContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -12564,25 +12564,25 @@
     [
      "receiver",
      "com.amazon.d3.receivers.BootCompleteReceiver",
-     "",
+     "exp",
      "android.permission.RECEIVE_BOOT_COMPLETED"
     ],
     [
      "receiver",
      "receivers.EspressoShotReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.d3.receivers.OOBECompleteReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.d3.receivers.KeepAliveReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -12618,7 +12618,7 @@
     [
      "service",
      "com.amazon.d3.binder.D3Service",
-     "",
+     "exp",
      "com.amazon.d3.permission.BIND_D3_SERVICE"
     ],
     [
@@ -12636,19 +12636,19 @@
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -12666,7 +12666,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -12720,7 +12720,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -12796,7 +12796,7 @@
     [
      "service",
      "com.amazon.device.blepa.BlePAService",
-     "",
+     "exp",
      "com.amazon.device.rdm.permission.RDM_REQUEST"
     ]
    ],
@@ -12833,7 +12833,7 @@
     [
      "service",
      "com.amazon.device.bluetoothpa.BluetoothPAService",
-     "",
+     "exp",
      "com.amazon.device.rdm.permission.RDM_REQUEST"
     ]
    ],
@@ -12937,7 +12937,7 @@
     [
      "activity",
      "com.amazon.device.crashmanager.CrashManagerDebugActivity",
-     "",
+     "exp",
      "com.amazon.dcp.permission.DISPLAY_DEBUG_UI"
     ],
     [
@@ -12949,7 +12949,7 @@
     [
      "provider",
      "com.amazon.device.crashmanager.CrashManagerMapInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ]
    ],
@@ -12993,7 +12993,7 @@
     [
      "provider",
      "com.amazon.device.details.DeviceDetailsContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -13005,7 +13005,7 @@
     [
      "receiver",
      "com.amazon.device.details.listener.PropertyUpdateListener",
-     "",
+     "exp",
      "com.amazon.naatyam.permission.CONFIG_CHANGE_PUBLISH"
     ],
     [
@@ -13115,7 +13115,7 @@
     [
      "activity",
      "com.amazon.device.logmanager.LogManagerDebugActivity",
-     "",
+     "exp",
      "com.amazon.dcp.permission.DISPLAY_DEBUG_UI"
     ],
     [
@@ -13151,7 +13151,7 @@
     [
      "provider",
      "com.amazon.device.logmanager.LogManagerMapInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
@@ -13211,7 +13211,7 @@
     [
      "service",
      "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
-     "",
+     "exp",
      null
     ],
     [
@@ -13247,7 +13247,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -13383,7 +13383,7 @@
     [
      "receiver",
      "com.amazon.device.lowstoragemanager.lowstoragenotification.LowStorageReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -13497,25 +13497,25 @@
     [
      "activity",
      "com.amazon.identity.auth.device.AuthPortalUIActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.AuthChallengeHandleActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.ActorSignUpAndEnrollActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.ActorEnrollActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
@@ -13605,7 +13605,7 @@
     [
      "activity",
      "com.amazon.device.sync.dx.AccountsActivity",
-     "",
+     "exp",
      "com.amazon.dcp.permission.DISPLAY_DEBUG_UI"
     ],
     [
@@ -13863,19 +13863,19 @@
     [
      "receiver",
      "com.amazon.diode.receivers.StartEventReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.diode.events.AmazonConnectivityEventReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.diode.analyzer.TtsAnalyzer",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -13887,43 +13887,43 @@
     [
      "service",
      "com.amazon.diode.scheduling.PeriodicAnalysisAndUploadJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.diode.scheduling.ArcusConfigSyncJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.diode.scheduling.DelayedAnalysisJobScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.diode.scheduling.DelayedArcusSyncJobScheduler",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.diode.scheduling.SoftwareUpdateCheckJob",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.diode.events.ExternalEventReceiver",
-     "",
+     "exp",
      "amazon.android.diags.permission.ON_EVENT"
     ],
     [
      "service",
      "com.amazon.diode.ipc.AnalysisService",
-     "",
+     "exp",
      "com.amazon.diode.ipc.permission.CONSUME_ANALYSES"
     ],
     [
@@ -13935,7 +13935,7 @@
     [
      "receiver",
      "com.amazon.diode.messaging.s2dm.S2DMMessageReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ]
    ],
@@ -14276,13 +14276,13 @@
     [
      "activity",
      "com.amazon.firetv.androidskillconnectioncapability.activity.AlexaSkillConnectionActivity",
-     "",
+     "exp",
      "com.amazon.firetv.androidskillconnectioncapability.permission.SEND_ASC_DEEPLINK"
     ],
     [
      "activity",
      "com.amazon.firetv.androidskillconnectioncapability.activity.AlexaPlusEventActivity",
-     "",
+     "exp",
      "com.amazon.firetv.androidskillconnectioncapability.permission.SEND_APE_DEEPLINK"
     ]
    ],
@@ -14334,7 +14334,7 @@
     [
      "activity",
      "com.amazon.firetv.troubleshooting.ui.MainActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -14481,13 +14481,13 @@
     [
      "service",
      "com.amazon.franktvinput.dvr.FrankTvRecordingService",
-     "",
+     "exp",
      "android.permission.BIND_TV_INPUT"
     ],
     [
      "service",
      "com.amazon.franktvinput.scan.FrankTvScanningService",
-     "",
+     "exp",
      "com.amazon.tv.permission.CHANNEL_SCAN"
     ],
     [
@@ -14553,7 +14553,7 @@
     [
      "receiver",
      "com.amazon.franktvinput.sync.AccountSyncReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
@@ -14565,7 +14565,7 @@
     [
      "provider",
      "com.amazon.franktvinput.provider.FrankTvInputProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -14577,7 +14577,7 @@
     [
      "receiver",
      "com.amazon.franktvinput.scheduledprogram.ScheduledProgramsUpdateReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -14715,31 +14715,31 @@
     [
      "receiver",
      "com.amazon.ftv.profilepicker.receiver.PartnerButtonReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.PROFILE_INTERACTION"
     ],
     [
      "activity",
      "com.amazon.ftv.profilepicker.ui.PickerActivity",
-     "",
+     "exp",
      "com.amazon.profilepicker.permission.LAUNCH"
     ],
     [
      "activity",
      "com.amazon.ftv.profilepicker.ui.ProfileManagerActivity",
-     "",
+     "exp",
      "com.amazon.profilepicker.permission.LAUNCH"
     ],
     [
      "activity",
      "com.amazon.ftv.profilepicker.ui.ProfileAdderActivity",
-     "",
+     "exp",
      "com.amazon.profilepicker.permission.LAUNCH"
     ],
     [
      "activity",
      "com.amazon.ftv.profilepicker.ui.TransitionActivity",
-     "",
+     "exp",
      "com.amazon.profilepicker.permission.LAUNCH"
     ],
     [
@@ -14881,7 +14881,7 @@
     [
      "service",
      "com.amazon.ftv.screensaver.app.services.ScreensaverService",
-     "",
+     "exp",
      "android.permission.BIND_DREAM_SERVICE"
     ],
     [
@@ -14893,49 +14893,49 @@
     [
      "service",
      "com.amazon.ftv.screensaver.app.uss.AlexaCollectionSettingsService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.ftv.screensaver.app.uss.AlexaProviderSettingsService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.ftv.screensaver.app.services.TakeoverChooserService",
-     "",
+     "exp",
      "com.amazon.ftv.screensaver.permission.TAKEOVER_CHOOSER_SERVICE"
     ],
     [
      "service",
      "com.amazon.ftv.screensaver.app.endpointstate.ScreensaverEndpointStateClientHandlerService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "provider",
      "com.amazon.ftv.screensaver.app.auth.PhotosMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
      "provider",
      "com.amazon.ftv.screensaver.app.providers.ScreensaverDataProvider",
-     "",
+     "exp",
      "com.amazon.ftv.screensaver.permission.SCREENSAVER_APP_READ_DATA"
     ],
     [
      "activity",
      "com.amazon.ftv.screensaver.app.settings.ScreensaverActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.ftv.screensaver.app.settings.SetAsScreensaverActivity",
-     "",
+     "exp",
      "com.amazon.photos.permission.SET_AS_SCREENSAVER"
     ],
     [
@@ -14959,7 +14959,7 @@
     [
      "activity",
      "com.amazon.ftv.screensaver.app.screensavers.basic.oobe.activity.OOBEScreensaverLaunchActivity",
-     "",
+     "exp",
      "com.amazon.ftv.screensaver.permission_SET_SCREENSAVER_OOBE"
     ],
     [
@@ -14995,31 +14995,31 @@
     [
      "receiver",
      "com.amazon.ftv.screensaver.app.auth.AccountStateReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.ftv.screensaver.app.receivers.AlexaSettingsReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.ftv.screensaver.app.receivers.OnBootAndPackageUpdateReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.ftv.screensaver.app.receivers.OOBEExperienceRecordingBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.ftv.screensaver.permission.OOBEExperienceRecordingBroadcast"
     ],
     [
      "receiver",
      "com.amazon.ftv.screensaver.app.receivers.ScreensaverEndpointStateClientReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -15043,25 +15043,25 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -15079,7 +15079,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -15362,25 +15362,25 @@
     [
      "activity",
      "com.amazon.ftvspatial.SettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.ftvspatial.VacancyToastActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.ftvspatial.indoorloc.IlsProximityReceiver",
-     "",
+     "exp",
      "com.amazon.ils.permission.RECEIVE_BROADCAST_REPORT"
     ],
     [
      "receiver",
      "com.amazon.ftvspatial.SensorDataReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -15392,25 +15392,25 @@
     [
      "receiver",
      "com.amazon.ftvspatial.BootCompletedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.ftvspatial.SpatialController",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.ftvspatial.AccountDeregistrationReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.ftvspatial.provider.DeviceLinkingContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -15422,7 +15422,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ]
    ],
@@ -15510,7 +15510,7 @@
     [
      "activity",
      "com.amazon.gamehub.activities.MainStubActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -15580,25 +15580,25 @@
     [
      "service",
      "com.amazon.alta.h2clientservice.H2ClientService",
-     "",
+     "exp",
      "com.amazon.alta.h2clientservice.permission.BIND_SERVICE"
     ],
     [
      "service",
      "com.amazon.alta.h2clientservice.BroadcastHandlingService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "provider",
      "com.amazon.alta.h2clientservice.H2ClientServiceMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
      "provider",
      "com.amazon.alta.h2clientservice.UserIconProvider",
-     "",
+     "exp",
      "com.amazon.alta.h2clientservice.CAN_CALL_H2CS_USER_ICON_PROVIDER"
     ],
     [
@@ -15741,13 +15741,13 @@
     [
      "service",
      "com.amazon.identity.auth.device.authorization.AmazonCredentialManagerService",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.CREDENTIAL_MANAGER_SDK"
     ],
     [
      "receiver",
      "com.amazon.identity.auth.device.authorization.appsync.PackageChangedReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -15759,13 +15759,13 @@
     [
      "provider",
      "com.amazon.identity.auth.device.authorization.CredentialManagerMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
      "service",
      "com.amazon.identity.auth.device.authorization.AmazonAuthorizationService1stParty",
-     "",
+     "exp",
      null
     ],
     [
@@ -15881,97 +15881,97 @@
     [
      "activity",
      "com.amazon.identity.auth.device.AuthPortalUIActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "provider",
      "com.amazon.dcp.sso.DeviceDataProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.dcp.sso.DeviceDataDirectBootProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.identity.framework.GenericIPCContentProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.GENERIC_IPC"
     ],
     [
      "provider",
      "com.amazon.identity.framework.GenericIPCContentDirectBootProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.GENERIC_IPC"
     ],
     [
      "service",
      "com.amazon.identity.framework.GenericIPCService",
-     "",
+     "exp",
      "com.amazon.identity.permission.GENERIC_IPC"
     ],
     [
      "provider",
      "com.amazon.dcp.sso.CustomerAttributeProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.dcp.sso.CustomerAttributeDirectBootProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.dcp.sso.AccountAuthenticationService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.dcp.sso.OAuthSubAuthenticatorService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.dcp.sso.SessionUserService",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.CHANGE_SESSION_USERS"
     ],
     [
      "service",
      "com.amazon.dcp.sso.AuthenticatedRequestService",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.USE_DEVICE_CREDENTIALS"
     ],
     [
      "service",
      "com.amazon.dcp.sso.AccountCredentialsMessageHandler",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "service",
      "com.amazon.dcp.sso.CORPFMChangeHandler",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
      "receiver",
      "com.amazon.dcp.sso.AccountChangedReceiverOnBoot",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.dcp.sso.CORPFMChangeHandler$ServerCORPFMChangedListener",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -16019,7 +16019,7 @@
     [
      "service",
      "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
-     "",
+     "exp",
      null
     ],
     [
@@ -16078,7 +16078,7 @@
     "com.amazon.identity.action.SYNC_DIRTY_DATA"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": [
     "com.amazon.dcp.sso.AccountSubAuthenticator"
    ]
@@ -16134,25 +16134,25 @@
     [
      "activity",
      "com.amazon.kso.blackbird.webview.WebViewActivity",
-     "",
+     "exp",
      "com.amazon.kso.blackbird.webview.LAUNCH_CLP_WEBVIEW"
     ],
     [
      "activity",
      "com.amazon.kso.blackbird.webview.AlexaLaunchedActivity",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.kso.blackbird.webview.WebViewDebugReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.kso.blackbird.aps.GetBidService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -16195,13 +16195,13 @@
     [
      "receiver",
      "com.amazon.livedeviceservice.receivers.LdsShadowModeStateReceiver",
-     "",
+     "exp",
      "com.amazon.livedeviceservice.permission.SHADOW_MODE_STATE"
     ],
     [
      "service",
      "com.amazon.livedeviceservice.receivers.LiveDeviceServiceSyncService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -16252,7 +16252,7 @@
     [
      "activity",
      "com.amazon.minitv.android.app.StubActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -16353,25 +16353,25 @@
     [
      "receiver",
      "com.amazon.neopactservice.receivers.LocaleChangedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.neopactservice.receivers.MAPReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.neopactservice.receivers.MessageReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.neopactservice.receivers.ProfileUpdateReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -16490,7 +16490,7 @@
     [
      "receiver",
      "com.amazon.ods.kindleconnect.receivers.BootActionsReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -16502,31 +16502,31 @@
     [
      "service",
      "com.amazon.tarazed.notification.service.ADMNotificationJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.tarazed.notification.service.ADMNotificationIntentService",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tarazed.notification.receiver.ADMNotificationReceiver",
-     "",
+     "exp",
      "com.amazon.device.messaging.permission.SEND"
     ],
     [
      "receiver",
      "com.amazon.tarazed.notification.receiver.PackageReinstalledReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.ods.kindleconnect.receivers.FireTVBackButtonReceiver",
-     "",
+     "exp",
      "com.amazon.ods.kindleconnect.BROADCAST_TO_LIVE_ASSIST"
     ],
     [
@@ -16538,7 +16538,7 @@
     [
      "provider",
      "com.amazon.ods.kindleconnect.account.TarazedMAPInfoProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
@@ -16562,7 +16562,7 @@
     [
      "receiver",
      "com.amazon.tarazed.notification.receiver.S2DMNotificationReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -16580,19 +16580,19 @@
     [
      "receiver",
      "com.amazon.tarazed.notification.receiver.MarketplaceChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
      "receiver",
      "com.amazon.tarazed.notification.receiver.AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.tarazed.receiver.ToggleQAModeReceiver",
-     "",
+     "exp",
      "android.permission.REAL_GET_TASKS"
     ],
     [
@@ -16604,7 +16604,7 @@
     [
      "receiver",
      "com.amazon.tarazed.receiver.ManualSyncReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
@@ -16616,7 +16616,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -16670,7 +16670,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -16878,79 +16878,79 @@
     [
      "provider",
      "com.amazon.prism.android.service.store.MultiProcessKeyValueStoreProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.prism.android.service.PrismService",
-     "",
+     "exp",
      "com.amazon.prism.permission.PROFILES_READ_WRITE"
     ],
     [
      "service",
      "com.amazon.prism.android.service.ProfileService",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.prism.android.service.lifecycle.device.boot.BootCompletedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.prism.android.service.s2dm.S2DMEventReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.prism.android.service.lifecycle.device.account.DeviceAccountEventReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.prism.android.service.lifecycle.device.sync.ContentSyncEventReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.SEND_SYNC_EVENT"
     ],
     [
      "service",
      "com.amazon.prism.android.service.configuration.synchronization.SyncRemoteConfigJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.prism.android.service.lifecycle.device.network.NetworkConnectedJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.prism.android.service.s2dm.S2DMEventService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.prism.android.service.local.LocalEventAsyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.prism.android.service.lifecycle.device.account.DeviceAccountEventService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.prism.android.service.lifecycle.device.sync.ContentSyncEventService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -17052,13 +17052,13 @@
     [
      "provider",
      "com.amazon.providers.contentsupport.ContentSupportProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.providers.contentsupport.ContentSupportService",
-     "",
+     "exp",
      "amazon.contentsupport.ACCESS_CONTENT_SUPPORT"
     ],
     [
@@ -17082,13 +17082,13 @@
     [
      "receiver",
      "com.amazon.providers.contentsupport.LocaleChangeReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.providers.contentsupport.AmzCallbackService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -17122,7 +17122,7 @@
     [
      "provider",
      "com.amazon.providers.tv.FireTvProvider",
-     "",
+     "exp",
      null
     ]
    ],
@@ -17184,7 +17184,7 @@
     [
      "service",
      "com.amazon.rtcsc.capabilityagent.fireos.RtcscCapabilityAgentServiceFireOs",
-     "",
+     "exp",
      null
     ],
     [
@@ -17196,7 +17196,7 @@
     [
      "service",
      "com.amazon.rtcsc.service.RtcscService",
-     "",
+     "exp",
      "com.amazon.rtcsc.permission.RTCSC"
     ]
    ],
@@ -17395,13 +17395,13 @@
     [
      "service",
      "com.amazon.sharingservice.android.client.proxy.core.ClientProxyService",
-     "",
+     "exp",
      "com.amazon.sharingservice.android.client.proxy.permission.BINDING"
     ],
     [
      "provider",
      "com.amazon.sharingservice.android.client.proxy.map.SSACMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ]
    ],
@@ -17462,7 +17462,7 @@
     [
      "activity",
      "com.amazon.shoptv.client.StubActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -17604,19 +17604,19 @@
     [
      "activity",
      "com.amazon.smarthomemapviewapp.SmartHomeActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.smarthomemapviewapp.AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.AmazonAccountPropertyService.property.changed"
     ],
     [
      "receiver",
      "com.amazon.smarthomemapviewapp.SmartHomePresenceReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -17634,19 +17634,19 @@
     [
      "provider",
      "com.amazon.smarthomemapviewapp.turbomodules.identityprovider.MAPInfoProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
      "receiver",
      "com.amazon.smarthomemapviewapp.turbomodules.airbus.AirbusDirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.smarthomemapviewapp.turbomodules.systemutility.VisualContextDirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -17658,7 +17658,7 @@
     [
      "receiver",
      "com.amazon.smarthomecameraview.directive.DirectiveHandler",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -17670,7 +17670,7 @@
     [
      "receiver",
      "com.amazon.smarthomecameraview.directive.RenderModeBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.app.pip.permission.HANDLE_VOICE_PIP_COMMAND"
     ],
     [
@@ -17682,7 +17682,7 @@
     [
      "service",
      "com.amazon.smarthomecameraview.rtcsc.RtcscIntentService",
-     "",
+     "exp",
      "com.amazon.rtcsc.permission.RTCSC"
     ],
     [
@@ -17694,7 +17694,7 @@
     [
      "receiver",
      "com.amazon.smarthomecameraview.discovery.DiscoveryHandler",
-     "",
+     "exp",
      null
     ],
     [
@@ -17706,7 +17706,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ]
    ],
@@ -17794,13 +17794,13 @@
     [
      "activity",
      "com.amazon.sneakpeek.MainActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.sneakpeek.VoiceReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ]
    ],
@@ -17874,7 +17874,7 @@
     [
      "activity",
      "com.amazon.spiderpork.MainActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -17954,7 +17954,7 @@
     [
      "activity",
      "com.amazon.ssmsys.NSAActivity",
-     "",
+     "exp",
      "com.amazon.ssm.permission.SSM_NETWORK_ADVISOR_PERMISSION"
     ],
     [
@@ -17972,13 +17972,13 @@
     [
      "receiver",
      "com.amazon.ssmsys.UnifiedErrorCodeReceiver",
-     "",
+     "exp",
      "com.amazon.permission.AMAZON_UNIFIED_NETWORK"
     ],
     [
      "receiver",
      "com.amazon.ssmsys.CaptivePortalReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -18102,13 +18102,13 @@
     [
      "provider",
      "com.amazon.storage.manager.providers.OffloadInfoContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.storage.manager.receivers.PackageCacheClearReceiver",
-     "",
+     "exp",
      "android.permission.DELETE_PACKAGES"
     ],
     [
@@ -18120,13 +18120,13 @@
     [
      "receiver",
      "com.amazon.storage.manager.receivers.StorageMonitorControlReceiver",
-     "",
+     "exp",
      "com.amazon.storage.manager.STORAGE_MONITOR_PERMISSION"
     ],
     [
      "receiver",
      "com.amazon.storage.manager.receivers.LowStorageReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -18144,7 +18144,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -18198,7 +18198,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -18253,13 +18253,13 @@
     [
      "activity",
      "com.amazon.storm.lightning.tutorial.authentication.JpakePinActivity",
-     "",
+     "exp",
      "com.amazon.storm.lightning.permission.ALLOW_AUTHENTICATION"
     ],
     [
      "receiver",
      "com.amazon.storm.lightning.tutorial.TutorialApplication$AuthenticationEventReceiver",
-     "",
+     "exp",
      "com.amazon.storm.lightning.permission.ALLOW_AUTHENTICATION"
     ]
    ],
@@ -18488,7 +18488,7 @@
     [
      "activity-alias",
      "com.amazon.tahoe.ftv.SettingsActivityPicker",
-     "",
+     "exp",
      null
     ],
     [
@@ -18542,43 +18542,43 @@
     [
      "activity",
      "com.amazon.tahoe.ftv.ChildSetupFlowActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.setup.DoobeActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.setup.AutoChildComradeActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.setup.AutoChildAppTileActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.setup.AlexaToggleDiscoveryActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.VerifyAdultFlowActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.UserSwitchActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -18716,43 +18716,43 @@
     [
      "receiver",
      "com.amazon.tahoe.ftv.receivers.AdmFallbackReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tahoe.ftv.receivers.OOBECompleteReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tahoe.ftv.alexa.lib.receiver.DirectiveReceiver",
-     "",
+     "exp",
      "com.amazon.alexa.androidapplicationagent.permission.SEND_DATA"
     ],
     [
      "receiver",
      "com.amazon.tahoe.ftv.alexa.lib.receiver.AppLaunchReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.PROFILE_INTERACTION"
     ],
     [
      "receiver",
      "com.amazon.tahoe.ftv.alexa.lib.receiver.NavigationDirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "provider",
      "com.amazon.tahoe.ftv.UserSwitchProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.tahoe.ftv.contentprovider.PreferenceSyncProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -18764,19 +18764,19 @@
     [
      "provider",
      "com.amazon.tahoe.ftv.feature.FeatureGatingProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.tahoe.ftv.feature.settings.SettingsFeatureGatingProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tahoe.ftv.multicast.AmazonKidsFTVMulticastService",
-     "",
+     "exp",
      "com.amazon.tahoe.BIND_SERVICE"
     ],
     [
@@ -18866,13 +18866,13 @@
     [
      "provider",
      "com.amazon.tahoe.ftv.lib.persistentstorage.provider.SharedPrefsContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.tahoe.ftv.lib.persistentstorage.provider.DatabaseContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -18926,19 +18926,19 @@
     [
      "activity",
      "com.amazon.tahoe.ftv.pin.ui.PinWithPCONActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tahoe.ftv.pin.ui.PinActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity-alias",
      "com.amazon.tahoe.ftv.pin.ui.HudPinActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -18956,7 +18956,7 @@
     [
      "provider",
      "com.amazon.tahoe.ftv.pin.PinProvider",
-     "",
+     "exp",
      "com.amazon.tahoe.ftv.pin.permission.PIN_PROVIDER"
     ],
     [
@@ -18974,7 +18974,7 @@
     [
      "activity",
      "com.amazon.tahoe.ftv.network.OfflineAdultDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -19203,7 +19203,7 @@
     [
      "service",
      "com.amazon.communication.AndroidTCommService",
-     "",
+     "exp",
      "amazon.permission.USE_TCOMM"
     ],
     [
@@ -19239,13 +19239,13 @@
     [
      "receiver",
      "com.amazon.communication.NosNotificationReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.communication.heartbeat.HeartbeatBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -19263,7 +19263,7 @@
     [
      "provider",
      "com.amazon.communication.TCommMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
@@ -19284,7 +19284,7 @@
     "com.amazon.intent.action.NOS_DATA_TRANSFER"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": [
     "com.amazon.communication.tcomm.spcEnabled"
    ]
@@ -19378,7 +19378,7 @@
     [
      "activity",
      "com.amazon.tigris.HomeActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -19402,13 +19402,13 @@
     [
      "receiver",
      "com.amazon.appstorecrosssurfacelocalisation.client.broadcast.MAPCorPfmChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
      "service",
      "com.amazon.tv.easyupgradeclientlib.restore.RestorationService",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.BIND_CLIENT"
     ],
     [
@@ -19444,7 +19444,7 @@
     [
      "receiver",
      "com.amazon.venezia.arcus.config.ArcusSyncReceiver",
-     "",
+     "exp",
      null
     ]
    ],
@@ -19686,13 +19686,13 @@
     [
      "activity",
      "com.amazon.tv.support.purchase.PurchaseActivityDI",
-     "",
+     "exp",
      "com.amazon.avod.SDK_ACCESS"
     ],
     [
      "activity",
      "com.amazon.tv.support.purchase.oneclicksettings.OneClickPaymentSettingsActivity",
-     "",
+     "exp",
      "com.amazon.tv.subscription.SHOW_OFFER_ON_DEVICE"
     ],
     [
@@ -19704,13 +19704,13 @@
     [
      "receiver",
      "com.amazon.tv.support.subscription.OnDeviceSubscriptionPreloadReceiver",
-     "",
+     "exp",
      "com.amazon.tv.subscription.SHOW_OFFER_ON_DEVICE"
     ],
     [
      "receiver",
      "com.amazon.tv.support.application.FireTvAIVApplication$UserLocationChangedLauncherProcessReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.SEND_OOBE_REGISTRATION"
     ],
     [
@@ -19834,7 +19834,7 @@
     [
      "receiver",
      "com.amazon.tv.alexaalerts.timedevents.UserDeregisterReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.SEND_OOBE_REGISTRATION"
     ],
     [
@@ -19852,7 +19852,7 @@
     [
      "receiver",
      "com.amazon.tv.alexaalerts.tts.ReadNotificationsReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -19924,49 +19924,49 @@
     [
      "receiver",
      "amazon.alexa.alerts.receiver.AlexaConnectivityReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.AccountRemovedReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.AlertExtensionStartedReceiver",
-     "",
+     "exp",
      "amazon.alarms.SECONDARY_ALERT_OPERATIONS"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.AlertExtensionFinishedReceiver",
-     "",
+     "exp",
      "amazon.alarms.SECONDARY_ALERT_OPERATIONS"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.MusicAlarmReceiver",
-     "",
+     "exp",
      "amazon.alarms.SECONDARY_ALERT_OPERATIONS"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.TimeSyncReceiver",
-     "",
+     "exp",
      "amazon.alarms.ALARM_OPERATIONS"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.LocalCommandReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "receiver",
      "amazon.alexa.alerts.receiver.AlarmServiceReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -19984,19 +19984,19 @@
     [
      "service",
      "amazon.alexa.alerts.api.service.AlertEventService",
-     "",
+     "exp",
      "amazon.alarms.ALARM_OPERATIONS"
     ],
     [
      "provider",
      "amazon.alexa.alerts.provider.TimedEventProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "amazon.alexa.alerts.provider.AlertInformationContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -20136,7 +20136,7 @@
     [
      "receiver",
      "com.amazon.tv.alexanotifications.DNDStatusChangeReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -20220,7 +20220,7 @@
     [
      "activity",
      "com.amazon.tv.consents.ConsentActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCH_AMAZON_CONSENTS"
     ]
    ],
@@ -20345,25 +20345,25 @@
     [
      "activity",
      "com.amazon.tv.csapp.CSAppActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.csapp.activity.CSLandingActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.csapp.receivers.CORPFMChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
      "receiver",
      "com.amazon.tv.csapp.receivers.AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -20375,7 +20375,7 @@
     [
      "receiver",
      "com.amazon.tv.csapp.receivers.EuphoricNotificationReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -20481,61 +20481,61 @@
     [
      "activity",
      "com.amazon.tv.developer.dataservice.ContentPersonalizationOptInActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.BootCompleteReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.FireTvDeeplinkCallbackReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.SystemBroadcastProxyReceiver$AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.SystemBroadcastProxyReceiver",
-     "",
+     "exp",
      "com.amazon.tv.developer.dataservice.SEND_INTERNAL_COMMANDS"
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.AlbertoSettingsChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.TestHarnessMetricsReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.PersonalizationConsentStatusRequestReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.receivers.GlobalSyncReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
      "receiver",
      "com.amazon.tv.developer.dataservice.datapull.DataPullerBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.tv.developer.dataservice.SEND_INTERNAL_COMMANDS"
     ]
    ],
@@ -20731,19 +20731,19 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrol.nativedcs.NativeDelegateReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.nativedcs.ZtsReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.HomePressReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
@@ -20773,7 +20773,7 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrol.csmintegration.DirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -20785,25 +20785,25 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.RemoteBatterySensorDiscoveryReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.RemoteBatteryLevelPublishReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.MigrateSoundControlFlagsReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "service",
      "com.amazon.tv.devicecontrol.api.DeviceControlApiService",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
@@ -20815,13 +20815,13 @@
     [
      "service",
      "com.amazon.tv.devicecontrol.quicksettings.SoundbarProvider",
-     "",
+     "exp",
      "com.fireos.sdk.ftve.USE_SDK"
     ],
     [
      "service",
      "com.amazon.tv.devicecontrol.test.DeviceControlTestServiceProduction",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
@@ -20905,7 +20905,7 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.DeviceControlActivationReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
@@ -20923,97 +20923,97 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.TurnTvOnReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.SwitchInputReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.LocaleLanguageReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.ServiceToDeviceMessagingReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "service",
      "com.amazon.tv.devicecontrol.api.CapabilityApiService",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "activity",
      "com.amazon.tv.devicecontrol.tvinput.StbSetupActivity",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.devicecontrol.tvinput.playback.StbTvInputService",
-     "",
+     "exp",
      "android.permission.BIND_TV_INPUT"
     ],
     [
      "provider",
      "com.amazon.tv.devicecontrol.quicksettings.contentprovider.SoundbarContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "provider",
      "com.amazon.tv.devicecontrol.repository.contentprovider.DeviceControlContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.ChannelGuideLongPressReceiver",
-     "",
+     "exp",
      "com.amazon.permission.RECEIVE_CHANNEL_GUIDE_LONGPRESSED_ACTION"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.AmazonInputsReceiver",
-     "",
+     "exp",
      "com.amazon.permission.SET_UPDATE_INPUT_STATE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.neo.DualModeFeedbackReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.neo.StateFeedbackReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.neo.InstantBlastRequestReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "receiver",
      "com.amazon.tv.devicecontrol.receivers.neo.ActiveSourceFeedbackReceiver",
-     "",
+     "exp",
      "com.amazon.tv.devicecontrol.WRITE"
     ],
     [
      "service",
      "com.amazon.tv.devicecontrol.quicksettings.SoundbarSettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -21031,7 +21031,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -21252,25 +21252,25 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrolsettings.home_receiver.HomeButtonReceiver",
-     "",
+     "exp",
      "com.amazon.permission.RECEIVE_CUSTOM_HOME"
     ],
     [
      "activity",
      "com.amazon.tv.devicecontrolsettings.screens.main_menu.OzOobeSettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.dcui.matter.ShowMatterPinCodeDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.dcui.matter.MatterUiService",
-     "",
+     "exp",
      null
     ],
     [
@@ -21294,7 +21294,7 @@
     [
      "activity",
      "com.amazon.tv.devicecontrolsettings.screens.luckyl.LuckyLInputShortcutsActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -21306,13 +21306,13 @@
     [
      "activity",
      "com.amazon.tv.devicecontrolsettings.screens.luckyl.RemotePairedSetupActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.devicecontrolsettings.screens.system_oobe.SystemDcOobeSetupActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -21330,25 +21330,25 @@
     [
      "receiver",
      "com.amazon.tv.devicecontrolsettings.broadcast_receiver.DFUBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.dcsettingscommons.zero_touch_setup.broadcast_receiver.ZeroTouchSetupBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.auto_reonboarding.HostTvChangedBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.auto_reonboarding.AutoReonboardingScreenSticks",
-     "",
+     "exp",
      null
     ],
     [
@@ -21360,37 +21360,37 @@
     [
      "receiver",
      "com.amazon.tv.dcsettingscommons.ftv_soundbar.FtvSoundbarBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.dcsettingscommons.stb_mso.MSOBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.dcsettingscommons.ftv_soundbar.FtvSoundbarNotConnectedToArcErrorScreen",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.dcsettingscommons.ftv_soundbar.FtvSoundbarWelcomeScreen",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.dcsettingscommons.stb_mso.MSOWelcomeScreen",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.devicecontrol.onboarding.customizablebuttons.ui.CustomizableButtonActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -21462,7 +21462,7 @@
     [
      "activity",
      "com.amazon.tv.earlyaccess.EarlyAccessStubActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -21554,13 +21554,13 @@
     [
      "activity",
      "com.amazon.tv.easyupgrade.EasyUpgradeActivity",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.INVOKE_EU"
     ],
     [
      "provider",
      "com.amazon.tv.easyupgrade.backup.EasyUpgradeContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.WRITE_SETTINGS"
     ],
     [
@@ -21584,25 +21584,25 @@
     [
      "receiver",
      "com.amazon.tv.easyupgrade.receiver.ApplicationUpdateReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.easyupgrade.receiver.AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.tv.easyupgrade.receiver.TestJobScheduleReceiver",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.INVOKE_EU"
     ],
     [
      "service",
      "com.amazon.tv.ftvpresetupclientlib.PreSetupService",
-     "",
+     "exp",
      "com.amazon.tv.ftvpresetupclientlib.permission.BIND_CLIENT"
     ]
    ],
@@ -21728,31 +21728,31 @@
     [
      "activity",
      "com.amazon.tv.forcedotaupdater.v2.ForcedUpdateActivity",
-     "",
+     "exp",
      "com.amazon.tv.forcedotaupdater.permission.INVOKE_FOTA"
     ],
     [
      "activity",
      "com.amazon.tv.forcedotaupdater.v2.FotaActivity",
-     "",
+     "exp",
      "com.amazon.tv.forcedotaupdater.permission.INVOKE_FOTA"
     ],
     [
      "activity",
      "com.amazon.tv.forcedotaupdater.v2.AppUpdatesInstallerActivity",
-     "",
+     "exp",
      "com.amazon.tv.forcedotaupdater.permission.INVOKE_FOTA"
     ],
     [
      "service",
      "com.amazon.tv.forcedotaupdater.v2.OtaCheckerJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.tv.forcedotaupdater.v2.OtaCheckReceiver",
-     "",
+     "exp",
      "com.amazon.tv.forcedotaupdater.permission.OTA_CHECKER_PERMISSION"
     ],
     [
@@ -21764,19 +21764,19 @@
     [
      "receiver",
      "com.amazon.tv.forcedotaupdater.v2.OtaIntentReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.forcedotaupdater.v2.OtaDownloadedNotificationActivity",
-     "",
+     "exp",
      "com.amazon.tv.forcedotaupdater.permission.INVOKE_FOTA"
     ],
     [
      "activity",
      "com.amazon.tv.forcedotaupdater.v2.OtaInstalledNotificationActivity",
-     "",
+     "exp",
      "com.amazon.tv.forcedotaupdater.permission.INVOKE_FOTA"
     ]
    ],
@@ -21973,7 +21973,7 @@
     [
      "service",
      "com.amazon.tv.ime.FireTVIME",
-     "",
+     "exp",
      "android.permission.BIND_INPUT_METHOD"
     ],
     [
@@ -22003,13 +22003,13 @@
     [
      "activity",
      "com.amazon.tv.ime.ui.ManageStoredEmailActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.ime.emailstore.StoredEmailsBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -22021,7 +22021,7 @@
     [
      "provider",
      "com.amazon.tv.ime.FireTvKeyboardMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
@@ -22033,7 +22033,7 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ]
    ],
@@ -22204,13 +22204,13 @@
     [
      "service",
      "com.amazon.tv.inputpreference.service.InputPreferenceService",
-     "",
+     "exp",
      "com.amazon.tv.permission.INPUT_SERVICE"
     ],
     [
      "service",
      "com.amazon.tv.inputpreference.usb.UsbSetupPromptsService",
-     "",
+     "exp",
      null
     ],
     [
@@ -22234,19 +22234,19 @@
     [
      "activity",
      "com.amazon.tv.inputpreference.usb.UsbDevicesListActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.inputpreference.usb.UsbListOperationsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.inputpreference.usb.UsbListFormatOptionsActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -22258,13 +22258,13 @@
     [
      "activity",
      "com.amazon.tv.inputpreference.wizard.InputSetupWizardActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.INPUT_WIZARD"
     ],
     [
      "activity",
      "com.amazon.tv.inputpreference.player.PassthroughPlayerActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.TUNE_INPUT"
     ],
     [
@@ -22276,7 +22276,7 @@
     [
      "activity",
      "com.amazon.tv.inputpreference.wizard.ChannelScanActivity",
-     "",
+     "exp",
      "com.amazon.tv.inputpreference.permission.CHANNEL_SCAN"
     ],
     [
@@ -22294,31 +22294,31 @@
     [
      "activity",
      "com.amazon.tv.inputpreference.player.InputChooserActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.player.InputSwitchReceiver",
-     "",
+     "exp",
      "com.amazon.permission.SET_UPDATE_INPUT_STATE"
     ],
     [
      "activity",
      "com.amazon.tv.inputpreference.player.GameBoardInputSwitchActivity",
-     "",
+     "exp",
      "com.amazon.permission.SET_UPDATE_INPUT_STATE"
     ],
     [
      "activity",
      "com.amazon.tv.inputpreference.service.StartAmazonInputActivity",
-     "",
+     "exp",
      "com.amazon.tv.inputpreference.permission.LAUNCH_INPUTS"
     ],
     [
      "activity",
      "com.amazon.tv.inputpreference.settings.HdmiControlSettingsActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -22330,19 +22330,19 @@
     [
      "receiver",
      "com.amazon.tv.inputpreference.usb.UsbSetupPromptsReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.player.PassthroughPlayerReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.TUNE_INPUT"
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.player.ARCInputReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.TUNE_INPUT"
     ],
     [
@@ -22354,25 +22354,25 @@
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.SystemOTAReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.ProvideCardsReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.SEND_CARDS_INTENT"
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.RefreshCardsReceiver",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.RefreshAntennaCardReceiver",
-     "",
+     "exp",
      "com.amazon.tv.inputpreference.REFRESH_CARDS_PERMISSION"
     ],
     [
@@ -22384,7 +22384,7 @@
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.cards.RemoveRecentCardReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT"
     ],
     [
@@ -22396,13 +22396,13 @@
     [
      "service",
      "com.amazon.tv.inputpreference.service.AmazonInputPreferenceServiceImpl",
-     "",
+     "exp",
      "com.fireos.sdk.ftve.USE_SDK"
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.AccountChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -22426,67 +22426,67 @@
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.LocalGalleryStatusReceiver",
-     "",
+     "exp",
      "com.amazon.tv.localgallery.permission.LAUNCH_ACTIVITY"
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.InputEventBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.permission.TVINPUT_CALLBACKS"
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.PackageReplacedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.inputpreference.service.receiver.AmazonInputSwitchReceiver",
-     "",
+     "exp",
      "com.amazon.permission.SET_UPDATE_INPUT_STATE"
     ],
     [
      "provider",
      "com.amazon.tv.inputpreference.service.InputContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.TUNE_INPUT"
     ],
     [
      "provider",
      "com.amazon.tv.inputpreference.service.InputFileProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "service",
      "com.amazon.tv.inputpreference.csmintegration.InputSwitchingService",
-     "",
+     "exp",
      "com.amazon.tv.inputpreference.permission.LAUNCH_INPUTS"
     ],
     [
      "service",
      "com.amazon.tv.inputpreference.contextmenu.QSInputSwitchService",
-     "",
+     "exp",
      "com.amazon.tv.inputpreference.permission.LAUNCH_INPUTS"
     ],
     [
      "service",
      "com.amazon.tv.inputpreference.settings.provider.InputSettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.inputpreference.service.KaminoInputSwitchService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.inputpreference.pconpreference.PCONValidationService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -22498,7 +22498,7 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -22510,7 +22510,7 @@
     [
      "service",
      "com.amazon.firecard.producer.ProducerCallbackService",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
@@ -22919,61 +22919,61 @@
     [
      "activity",
      "com.amazon.tv.launcher.ui.HomeActivity_vNext",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.ui.MainSettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.util.MenuNavigationHelperActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.ui.SettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.ui.CTSDummyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.RecentDeepLinkActivityDI",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.SearchResultsDeepLinkActivityDI",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.DirectiveSearchResultsActivityDI",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.SHOW_SEARCH_RESULTS"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.TextSearchDeepLinkActivityDI",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.SHOW_TEXT_SEARCH"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.DetailsPageDeepLinkActivityDI",
-     "",
+     "exp",
      null
     ],
     [
@@ -22985,43 +22985,43 @@
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.ChannelLandingPageDeepLinkActivityDI",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.SHOW_CHANNEL_LANDING_PAGE"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.AlexaDiscoveryLandingPageActivityDI",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.List1DDeepLinkActivityDI",
-     "",
+     "exp",
      "com.amazon.tv.launcher.LAUNCH_MB_CONTENT"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.PrimeVideoScreenDeepLinkActivityDI",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.PRIME_VIDEOS"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.NavMenuScreenDeepLinkActivityDI",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.FarFieldListActivityDI",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.FarFieldDenseListActivityDI",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -23033,37 +23033,37 @@
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.FarFieldSeasonListActivityDI",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.FarFieldEpisodeListActivityDI",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.ui.purchase.VideoItemPurchaseActivityDI",
-     "",
+     "exp",
      "com.amazon.device.permission.COMRADE_DIALOGS"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.ui.purchase.OffDeviceSubscriptionActivity",
-     "",
+     "exp",
      "com.amazon.tv.subscription.SHOW_OFFER"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.content.NSCBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.PROMPT_REGISTER_TILE_METADATA_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.content.ComradeReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.COMRADE_CAPABILITIES"
     ],
     [
@@ -23075,31 +23075,31 @@
     [
      "receiver",
      "com.amazon.tv.csm.directives.UIControllerDirectiveReceiver",
-     "",
+     "exp",
      "com.amazon.uicontrollermanager.permission.DataTransfer"
     ],
     [
      "receiver",
      "com.amazon.tv.csm.directives.DirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.util.LauncherPreloaderReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.DETAIL_PAGE_PRELOADING"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.util.PrimeTrialSignupEventReceiver",
-     "",
+     "exp",
      "com.amazon.tv.oobe.permission.SEND_PRIME_TRIAL_SIGNUP_SUCCESS"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.content.FBAReceiver",
-     "",
+     "exp",
      "com.amazon.tv.subscription.permission.FBA_SUBSCRIPTION_SIGNUP"
     ],
     [
@@ -23111,19 +23111,19 @@
     [
      "receiver",
      "com.amazon.tv.mediabrowse.MBForceSyncMessageReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.tv.mediabrowse.CacheBustingAsynchronousReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.tv.mediabrowse.util.MediaBrowseCacheModificationBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.tv.mediabrowse.CACHE_MANIPULATION"
     ],
     [
@@ -23135,19 +23135,19 @@
     [
      "receiver",
      "com.amazon.tv.launcher.util.SettingButtonPressReceiver",
-     "",
+     "exp",
      "com.amazon.permission.RECEIVE_SETTING_BUTTON_PRESSED_ACTION"
     ],
     [
      "provider",
      "com.amazon.tv.launcher.primefreetrial.PrimeAIVProvider",
-     "",
+     "exp",
      "com.amazon.avod.prime.permission.CAN_CREATE_FREE_TRIAL_OFFER"
     ],
     [
      "provider",
      "com.amazon.tv.launcher.content.ComradeStatusProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -23159,31 +23159,31 @@
     [
      "activity",
      "com.amazon.tv.launcher.deeplink.activity.CollectionDetailsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.util.QuickSettingsProxyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.primefreetrial.PrimeFreeTrialActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.primefreetrial.PrimeSignupActivityDI",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.launcher.banksysignup.SubscriptionWebViewActivity",
-     "",
+     "exp",
      "com.amazon.tv.subscription.SHOW_OFFER_WEB"
     ],
     [
@@ -23219,7 +23219,7 @@
     [
      "service",
      "com.amazon.tv.launcher.content.ComradeStateUploaderService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -23231,7 +23231,7 @@
     [
      "service",
      "com.amazon.tv.launcher.autoplay.AutoPlaybackService",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.AUTOPLAY"
     ],
     [
@@ -23255,61 +23255,61 @@
     [
      "receiver",
      "com.amazon.tv.launcher.util.AivPlaybackReceiver",
-     "",
+     "exp",
      "com.amazon.avod.SDK_ACCESS"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.rvpcal.RvpCalDirectiveReceiver",
-     "",
+     "exp",
      "com.amazon.alexa.androidapplicationagent.permission.SEND_DATA"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.BuellerApplication$UserLocationChangedLauncherProcessReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.SEND_OOBE_REGISTRATION"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.util.LocaleChangedEventReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.util.WifiNetUnifiedStatusReceiver",
-     "",
+     "exp",
      "com.amazon.permission.AMAZON_UNIFIED_NETWORK"
     ],
     [
      "service",
      "com.amazon.tv.launcher.MBRoutingInfoChangedService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.ExperienceChangedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.AlexaExperienceChangedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ],
     [
      "receiver",
      "com.amazon.tv.launcher.MBRoutingInfoChangedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ],
     [
      "receiver",
      "com.amazon.tv.cardflow.AppStoreReceiver",
-     "",
+     "exp",
      "com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia"
     ],
     [
@@ -23321,49 +23321,49 @@
     [
      "receiver",
      "com.amazon.tv.cardflow.RefreshCardsReceiver",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
      "receiver",
      "com.amazon.alexa.androidapplicationagent.spi.DataReceiveBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.alexa.androidapplicationagent.permission.SEND_DATA"
     ],
     [
      "provider",
      "com.amazon.tv.caching.widgets.LiveTvCardContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.caching.widgets.permission.CARD_WIDGET"
     ],
     [
      "provider",
      "com.amazon.tv.caching.widgets.LiveTvCardProfileContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.caching.widgets.permission.CARD_WIDGET"
     ],
     [
      "activity",
      "com.amazon.tv.launcher.content.PlayContentActivity",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.firecard.deviceagent.provider.CardProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.firecard.deviceagent.CardDeviceAgent",
-     "",
+     "exp",
      "com.amazon.firecard.permission.CARD_CONSUMER"
     ],
     [
      "service",
      "com.amazon.firecard.deviceagent.service.LocalProviderService",
-     "",
+     "exp",
      "com.amazon.firecard.permission.CARD_PRODUCER"
     ],
     [
@@ -23381,13 +23381,13 @@
     [
      "provider",
      "com.amazon.firecard.deviceagent.provider.CdaDiagProvider",
-     "",
+     "exp",
      "com.amazon.firecard.permission.DIAGNOSTIC"
     ],
     [
      "service",
      "com.amazon.firecard.producer.ProducerCallbackService",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
@@ -23423,7 +23423,7 @@
     [
      "receiver",
      "androidx.tracing.perfetto.TracingReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -23435,7 +23435,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -23447,31 +23447,31 @@
     [
      "activity",
      "androidx.activity.ComponentActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.compose.ui.tooling.PreviewActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -23650,7 +23650,7 @@
     [
      "activity",
      "com.amazon.tv.legal.notices.LegalAndComplianceActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -23662,19 +23662,19 @@
     [
      "activity",
      "com.amazon.tv.legal.notices.AlexaLegalTermsActivity",
-     "",
+     "exp",
      "amazon.permission.LEGAL_NOTICES"
     ],
     [
      "activity",
      "com.amazon.tv.legal.notices.LegalLearnMoreActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "receiver",
      "com.amazon.tv.legal.notices.AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -23692,19 +23692,19 @@
     [
      "activity",
      "com.amazon.tv.legal.notices.FrankLegalAndComplianceActivity",
-     "",
+     "exp",
      "amazon.permission.LEGAL_NOTICES"
     ],
     [
      "receiver",
      "com.amazon.tv.legal.notices.LegalNoticesApplication$UserLocationChangedReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.SEND_OOBE_REGISTRATION"
     ],
     [
      "service",
      "com.amazon.tv.legal.notices.SettingsLegalNoticesSearchHintProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.INDEX_SETTINGS_SEARCH_DATA"
     ],
     [
@@ -23716,7 +23716,7 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -23776,7 +23776,7 @@
     [
      "service",
      "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
-     "",
+     "exp",
      null
     ],
     [
@@ -24132,43 +24132,43 @@
     [
      "activity",
      "com.amazon.tv.livetv.interactive.activity.OpAppActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.THIRD_PARTY_OPAPP"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.interactive.activity.OpAppTIAFActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.THIRD_PARTY_OPAPP"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.interactive.activity.BiAppActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.player.AppPreWarmBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.PREWARM"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.TvChannelsPlayerActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.TUNE_CHANNEL"
     ],
     [
      "activity-alias",
      "com.amazon.tv.livetv.TvChannelsPlayerActivityAlias",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.livetv.guide.GuideActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.SHOW_EPG"
     ],
     [
@@ -24180,103 +24180,103 @@
     [
      "activity",
      "com.amazon.tv.livetv.TuneServiceWrapperActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.TUNE_CHANNEL"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.GuideWrapperActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.livetv.DttIconWrapperActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.livetv.settings.LiveTvSettings",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.feature_change_channel_frequency.ChannelManualFrequencyActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.MANUAL_FREQUENCY"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.details.LiveTvDetailsPageActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.LIVE_DETAILS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.settings.LiveTvSettingsWithPConActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.settings.debug.DebugActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.feature_manage_channels.ChannelManagementActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.feature_manage_favorites.FavoriteManagementActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.recordingoptions.RecordingOptionsActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.RECORDING_OPTIONS"
     ],
     [
      "activity",
      "com.amazon.tv.recordingoptions.RemoveRecordingRuleActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.REMOVE_RECORDING_RULE"
     ],
     [
      "activity",
      "com.amazon.tv.conflictmanagement.RecordingConflictActivity",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "activity",
      "com.amazon.tv.dvrplayer.RecordedPlayerActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.TUNE_CHANNEL"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.dvrcontentviewer.activity.MyRecordingsActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.MANAGE_RECORDINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.dvrcontentviewer.activity.RemoveRecordingsActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.REMOVE_RECORDING"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.dvr.ManageRecordingsActivity",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.MANAGE_RECORDINGS"
     ],
     [
@@ -24300,7 +24300,7 @@
     [
      "activity",
      "com.amazon.tv.livetv.dvr.DeleteRecordingsActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.REMOVE_RECORDING"
     ],
     [
@@ -24324,7 +24324,7 @@
     [
      "activity",
      "com.amazon.tv.livetv.settings.channelmanagement.AddChannelsActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -24360,55 +24360,55 @@
     [
      "receiver",
      "com.amazon.tv.livetv.dvrcontentviewer.OpenMyRecordingsReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.dvr.OpenManageRecordingReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.StationNumberReceiver",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.STATION_NUMBER_RECEIVER"
     ],
     [
      "service",
      "com.amazon.tv.livetv.StationNumberRoutingService",
-     "",
+     "exp",
      "android.permission.FOREGROUND_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.LanguageButtonReceiver",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.LANGUAGE_BUTTON_RECEIVER"
     ],
     [
      "service",
      "com.amazon.tv.livetv.RemoteTvViewService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.livetv.TuneService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.livetv.debugservice.GordonDebugService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.livetv.quicksettings.ginga.GingaSettingsProviderService",
-     "",
+     "exp",
      null
     ],
     [
@@ -24420,55 +24420,55 @@
     [
      "activity",
      "com.amazon.tv.livetv.PconProtectingActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.voice.AlexaVoiceTuningReceiver",
-     "",
+     "exp",
      "com.amazon.alexa.androidapplicationagent.permission.SEND_DATA"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.VewdProgramUpdateReceiver",
-     "",
+     "exp",
      "com.vewd.core.tif.permission.EXTENSION"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.settings.providermanagement.ProviderManagementActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.channelmanagement.stationgroupmanager.StationGroupManagerActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.channelmanagement.stationlisteditor.StationListEditorActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "provider",
      "com.amazon.tv.livetv.playbackextn.PlaybackExtensionProvider",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.ACCESS_PLAYBACK_EXT"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.cloning.GcsCloningReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.CLONING"
     ],
     [
      "activity",
      "com.amazon.tv.livetv.settings.channelscan.ChannelScanActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.CHANNEL_SCAN"
     ],
     [
@@ -24486,145 +24486,145 @@
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.StationListChangeReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.CHANNEL_LIST_CHANGE"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.liveevent.PreviewProgramChangedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.PREVIEW_PROGRAMS_CHANGE"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.AccountChangedReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.opapp.OpAppInstallationReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.OPAPP_INSTALLATION_STATUS_SEND"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.LocaleChangedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.OnUpdateReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.ExternalTuneReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.TIF_EXTENSION_UPDATE"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.utils.TvInputChangeReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.TV_INPUT_CHANGE"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.DebugTopicUpdateReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.cardmanagement.RemoveRecentCardReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.cardmanagement.HideChannelReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.channelmanagement.HideOrDeleteStationReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.REMOVE_FROM_RECENT"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.cardmanagement.TifProgramRefreshReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.NOTIFY_TIF_PROGRAM_REFRESH"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.dvrcontentservice.cardschedule.CancelRecordingReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.CANCEL_RECORDING"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.dvrcontentservice.RecordedProgramsChangeReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.RECORDED_PROGRAMS_CHANGE"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.config.BootConfigurationSyncReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.config.EspressoShotBootConfigurationSyncReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.livetv.livedeviceservice.cache.LdsDataChangedReceiver",
-     "",
+     "exp",
      "com.amazon.livetv.permission.INVALIDATE_LDS_CACHE"
     ],
     [
      "receiver",
      "com.amazon.tv.livetv.channelmanagement.receiver.ChannelScanStartedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.CHANNEL_SCAN"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.sync.StationListSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.sync.StationPreferenceSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.sync.LocationUpdateService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.utils.LiveSettingsSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.provider.sync.ProviderPreferenceSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -24636,55 +24636,55 @@
     [
      "service",
      "com.amazon.firecard.producer.ProducerCallbackService",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
      "service",
      "com.amazon.tv.livetv.cardmanagement.CardsJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.ContentService",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.ACCESS_EPG"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.liveevent.PreviewProgramsSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.livetv.contentservice.liveevent.LiveEventCardsRefreshSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.livetv.contentservice.sync.InputSourcePreferenceReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.livetv.config.ConfigurationSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.tv.livetv.cardmanagement.ProgramLineupJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.tv.livetv.cardmanagement.RecastLineupJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -24696,43 +24696,43 @@
     [
      "provider",
      "com.amazon.livetv.contentservice.station.StationProvider",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.ACCESS_EPG"
     ],
     [
      "provider",
      "com.amazon.livetv.contentservice.DevProvider",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.DEV_ACCESS"
     ],
     [
      "provider",
      "com.amazon.livetv.contentservice.LiveTvDbLogProvider",
-     "",
+     "exp",
      "com.amazon.tv.livetv.LIVETV_LOG_ACCESS"
     ],
     [
      "provider",
      "com.amazon.livetv.contentservice.tifextension.TifExtensionProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.TIF_EXTENSION_ACCESS"
     ],
     [
      "provider",
      "com.amazon.tv.livetv.cardmanagement.CardProvider",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.ACCESS_EPG"
     ],
     [
      "provider",
      "com.amazon.livetv.contentservice.tunerdetails.TunerDetailsProvider",
-     "",
+     "exp",
      "com.amazon.tv.livetv.permission.ACCESS_TUNER_DETAILS"
     ],
     [
      "receiver",
      "androidx.tracing.perfetto.TracingReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -24744,7 +24744,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -24756,7 +24756,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -24810,7 +24810,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -24822,31 +24822,31 @@
     [
      "activity",
      "androidx.activity.ComponentActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.compose.ui.tooling.PreviewActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
-     "",
+     "exp",
      null
     ]
    ],
@@ -25002,31 +25002,31 @@
     [
      "receiver",
      "com.amazon.tv.matter.MatterCastingInitReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.matter.ui.ShowMatterPinCodeDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.matter.ui.MatterUiService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.matter.appAgent.MatterAppAgentService",
-     "",
+     "exp",
      "com.amazon.tv.matter.appAgent.permission.START_STOP_SERVICE_PERMISSION"
     ],
     [
      "receiver",
      "com.amazon.tv.matter.receivers.CommissioningStatusReceiver",
-     "",
+     "exp",
      null
     ]
    ],
@@ -25060,7 +25060,7 @@
     [
      "service",
      "com.amazon.tv.mattercohost.ContentAppAgentService",
-     "",
+     "exp",
      "com.matter.tv.app.api.permission.BIND_SERVICE_PERMISSION"
     ]
    ],
@@ -25070,7 +25070,7 @@
     "com.matter.tv.app.api.action.MatterAppAgent"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": []
   }
  ],
@@ -25148,25 +25148,25 @@
     [
      "activity",
      "com.amazon.tv.notificationcenter.NotificationCenterActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.notificationcenter.settings.NotificationSettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.tv.notificationcenter.count.NotificationCountProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.notificationcenter.ftue.ResetReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -25196,7 +25196,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -25543,13 +25543,13 @@
     [
      "receiver",
      "com.amazon.tv.oobe.OtaInstallationReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.oobe.hotelmode.cloning.OOBECloningReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.CLONING"
     ],
     [
@@ -25579,7 +25579,7 @@
     [
      "service",
      "com.amazon.tv.ftvpresetupclientlib.PreSetupService",
-     "",
+     "exp",
      "com.amazon.tv.ftvpresetupclientlib.permission.BIND_CLIENT"
     ],
     [
@@ -25591,13 +25591,13 @@
     [
      "receiver",
      "com.amazon.venezia.oobe.util.EasyUpgradeTestReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.ftvxp.appstoretvservice.client.map.MAPCorPfmChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
@@ -25609,7 +25609,7 @@
     [
      "service",
      "com.amazon.tv.easyupgradeclientlib.restore.RestorationService",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.BIND_CLIENT"
     ],
     [
@@ -25621,7 +25621,7 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ]
    ],
@@ -25734,7 +25734,7 @@
     [
      "service",
      "com.amazon.tv.ottssocompanionapp.service.OttSsoService",
-     "",
+     "exp",
      null
     ],
     [
@@ -25752,13 +25752,13 @@
     [
      "provider",
      "com.amazon.tv.ottssocompanionapp.appstore.AppStoreContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.tv.ottssocompanionapp.map.OttSsoMAPInformationProvider",
-     "",
+     "exp",
      "@0x7f050010"
     ],
     [
@@ -25935,7 +25935,7 @@
     [
      "activity",
      "com.amazon.tv.parentalcontrols.PCONActivity",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS"
     ],
     [
@@ -25947,7 +25947,7 @@
     [
      "activity",
      "com.amazon.tv.parentalcontrols.PINManagementActivity",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS"
     ],
     [
@@ -25959,25 +25959,25 @@
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.StoreModeChangeReceiver",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS"
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.PCONAdminReceiver",
-     "",
+     "exp",
      "android.permission.BIND_DEVICE_ADMIN"
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.RestrictionsProvider",
-     "",
+     "exp",
      "android.permission.BIND_DEVICE_ADMIN"
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.AccountChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -25989,7 +25989,7 @@
     [
      "service",
      "com.amazon.tv.parentalcontrols.AccountMigrationService",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PERFORM_ACCOUNT_MIGRATION"
     ],
     [
@@ -26001,13 +26001,13 @@
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.HandleOTAReceiver",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS"
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.WarmStartReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -26019,7 +26019,7 @@
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.RefreshPinInfoReceiver",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS"
     ],
     [
@@ -26061,7 +26061,7 @@
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.receiver.MediaBrowseRoutingInfoChangedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ],
     [
@@ -26079,19 +26079,19 @@
     [
      "provider",
      "com.amazon.tv.parentalcontrols.provider.ParentalControlsContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.receiver.CountryOfPurchaseChangeReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GET_DEVICE_INFO"
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.UpdatePconSettingsReceiver",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PCON_SETTINGS_SYNC"
     ],
     [
@@ -26103,19 +26103,19 @@
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.DeletePCONPinReceiver",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.DELETE_PIN"
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.receiver.AquilaUnpackedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.parentalcontrols.ChannelScanOperatorReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -26133,13 +26133,13 @@
     [
      "activity",
      "com.amazon.tv.parentalcontrols.activity.PCONConsentActivity",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.parentalcontrols.SettingsParentalControlsSearchHintProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.INDEX_SETTINGS_SEARCH_DATA"
     ],
     [
@@ -26151,13 +26151,13 @@
     [
      "receiver",
      "com.amazon.identity.auth.device.storage.LambortishClock$ChangeTimestampsBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.identity.auth.accounts.SessionUserChangedToAccountForPackageChangedAdpater",
-     "",
+     "exp",
      null
     ],
     [
@@ -26169,37 +26169,37 @@
     [
      "service",
      "com.amazon.tv.easyupgradeclientlib.restore.RestorationService",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.BIND_CLIENT"
     ],
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.AuthPortalUIActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.AuthChallengeHandleActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.ActorSignUpAndEnrollActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
      "activity",
      "com.amazon.identity.auth.device.activity.ActorEnrollActivity",
-     "",
+     "exp",
      "com.amazon.identity.auth.device.perm.AUTH_SDK"
     ],
     [
@@ -26395,43 +26395,43 @@
     [
      "receiver",
      "com.amazon.tv.quicksettings.ui.QSLaunchButtonPressReceiver",
-     "",
+     "exp",
      "com.amazon.permission.RECEIVE_HOME_LONGPRESSED_ACTION"
     ],
     [
      "receiver",
      "com.amazon.tv.quicksettings.ui.SettingButtonPressReceiver",
-     "",
+     "exp",
      "com.amazon.permission.RECEIVE_SETTING_BUTTON_PRESSED_ACTION"
     ],
     [
      "receiver",
      "com.amazon.tv.quicksettings.ui.GlobalKeyHandler",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.quicksettings.ui.StartBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.permission.RECEIVE_QS_LAUNCH_ACTION"
     ],
     [
      "receiver",
      "com.amazon.tv.quicksettings.ui.AlexaStartBroadcastReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "receiver",
      "com.amazon.tv.quicksettings.ui.PictureMenuNavigationReceiver",
-     "",
+     "exp",
      "com.amazon.tv.quicksettings.permissions.GLOBAL_HANDLER"
     ],
     [
      "activity",
      "com.amazon.tv.quicksettings.ui.StartQSUIActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -26455,7 +26455,7 @@
     [
      "service",
      "com.amazon.tv.fso.service.SettingsServiceImpl",
-     "",
+     "exp",
      null
     ],
     [
@@ -26473,7 +26473,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -26527,7 +26527,7 @@
     [
      "receiver",
      "androidx.work.impl.diagnostics.DiagnosticsReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ]
    ],
@@ -26638,7 +26638,7 @@
     [
      "activity",
      "com.amazon.tv.releasenotes.ReleaseNotesActivity",
-     "",
+     "exp",
      "com.amazon.tv.permissions.INVOKE_RELEASE_NOTES"
     ],
     [
@@ -26674,7 +26674,7 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ]
    ],
@@ -26764,7 +26764,7 @@
     [
      "receiver",
      "com.amazon.tv.routing.receivers.AccountChangedReceiver",
-     "",
+     "exp",
      "com.amazon.tv.oobe.RECEIVE_ACCOUNT_ADDED"
     ],
     [
@@ -26776,37 +26776,37 @@
     [
      "receiver",
      "com.amazon.tv.routing.receivers.AccountSyncReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.SEND_SYNC_EVENT"
     ],
     [
      "receiver",
      "com.amazon.tv.routing.receivers.RoutingInfoExpiredReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ],
     [
      "receiver",
      "com.amazon.tv.routing.receivers.NetworkConnectionReceiver",
-     "",
+     "exp",
      "com.amazon.tv.routing.permission.NETWORK_CONNECTED"
     ],
     [
      "receiver",
      "com.amazon.tv.routing.receivers.AlexaLocaleChangedReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "service",
      "com.amazon.tv.routing.refresher.DataService",
-     "",
+     "exp",
      "com.amazon.tv.oobe.RECEIVE_ACCOUNT_ADDED"
     ],
     [
      "activity",
      "com.amazon.tv.routing.debug.DebugActivityDataHandler",
-     "",
+     "exp",
      "com.amazon.tv.permission.ROUTINGINFO_CHANGED"
     ]
    ],
@@ -26867,7 +26867,7 @@
     [
      "activity",
      "com.amazon.storage.rro.screen.RROInstallationProgressScreenActivity",
-     "",
+     "exp",
      "com.amazon.tv.settings.permission.START_RRO_PROGRESS_SCREEN"
     ],
     [
@@ -26891,7 +26891,7 @@
     [
      "service",
      "com.amazon.tv.settings.core.service.SettingsCoreService",
-     "",
+     "exp",
      "com.amazon.tv.settings.permission.BIND_CORE_SETTINGS"
     ]
    ],
@@ -27367,13 +27367,13 @@
     [
      "activity",
      "com.amazon.tv.settings.v2.hud.HudActivity",
-     "",
+     "exp",
      "android.permission.INSTALL_PACKAGES"
     ],
     [
      "activity",
      "com.amazon.tv.settings.v2.blackcurtain.BlackCurtainActivity",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -27457,7 +27457,7 @@
     [
      "activity",
      "com.amazon.tv.settings.v2.tv.preferences.FreeViewPlayTouActivity",
-     "",
+     "exp",
      "com.amazon.tv.settings.permission.FREEVIEW_PLAY_TOU_ACCEPTANCE"
     ],
     [
@@ -27481,13 +27481,13 @@
     [
      "activity",
      "com.amazon.tv.settings.v2.compliance.CTSDummySettingsHandler",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.settings.v2.compliance.CTSDummySettingActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -27499,13 +27499,13 @@
     [
      "activity",
      "com.amazon.tv.settings.v2.compliance.CTSDummyIntentHandler",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.settings.v2.compliance.CTSDummyDeviceAdminActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -27517,7 +27517,7 @@
     [
      "activity",
      "com.amazon.tv.settings.v2.search.SettingsSearchActivity",
-     "",
+     "exp",
      "com.amazon.tv.settings.permission.VIEW_SETTINGS_SEARCH"
     ],
     [
@@ -27529,13 +27529,13 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.RefreshCardsReceiver",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.TargetedRefreshCardsReceiver",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
@@ -27565,13 +27565,13 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.GlobalKeyHandler",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.GlobalKeyHandler",
-     "",
+     "exp",
      null
     ],
     [
@@ -27697,7 +27697,7 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.WakeUpReceiver",
-     "",
+     "exp",
      "com.amazon.device.permission.PROFILE_INTERACTION"
     ],
     [
@@ -27727,13 +27727,13 @@
     [
      "provider",
      "com.amazon.tv.settings.v2.auth.BuellerSettingsMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.WarmStartReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -27775,7 +27775,7 @@
     [
      "service",
      "com.amazon.tv.settings.v2.tv.usb.camera.CameraConnectedService",
-     "",
+     "exp",
      "com.amazon.permission.CAMERA_CONNECTION_LISTENER"
     ],
     [
@@ -27805,13 +27805,13 @@
     [
      "provider",
      "com.amazon.tv.settings.v2.tv.preferences.details.privacy.PrivacySettingsProvider",
-     "",
+     "exp",
      "com.amazon.dpc.permission.CONTENT_PROVIDER_ACCESS"
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.profiles.ProfileUpdateReceiver",
-     "",
+     "exp",
      "android.permission.INTERACT_ACROSS_USERS"
     ],
     [
@@ -27823,7 +27823,7 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.profiles.ProfileRemoveReceiver",
-     "",
+     "exp",
      "com.amazon.prism.android.service.permission.SEND_PROFILE_EVENTS"
     ],
     [
@@ -27847,13 +27847,13 @@
     [
      "service",
      "com.amazon.tv.settings.v2.tv.display_sounds.DisplayAndSoundsSettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.display_sounds.ProviderReplacedReceiverImpl",
-     "",
+     "exp",
      null
     ],
     [
@@ -27865,7 +27865,7 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.display_sounds.RestoreNavigationSoundsReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -27877,7 +27877,7 @@
     [
      "provider",
      "com.amazon.tv.settings.v2.provider.SystemAppUninstallInfoProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -27889,19 +27889,19 @@
     [
      "service",
      "com.amazon.tv.settings.v2.tv.controllers_bluetooth_devices.overlay.AudioPairingOverlay",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.controllers_bluetooth_devices.findmy.FindMyOOBETriggerReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.usb.UsbEventsReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -27913,13 +27913,13 @@
     [
      "service",
      "com.amazon.tv.settings.v2.tv.controllers_bluetooth_devices.findmy.FindMyOOBETriggerService",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.usb.MediaEventsReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -27937,19 +27937,19 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.search.index.SettingsSearchPackageReIndexReceiver",
-     "",
+     "exp",
      "com.amazon.tv.permission.RE_INDEX_SETTINGS_SEARCH_DATA"
     ],
     [
      "receiver",
      "com.amazon.tv.settings.v2.tv.FactoryResetBroadcastReceiver",
-     "",
+     "exp",
      "android.permission.MASTER_CLEAR"
     ],
     [
      "provider",
      "com.amazon.tv.settings.v2.provider.SettingsContentProvider",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
@@ -28015,7 +28015,7 @@
     [
      "receiver",
      "com.amazon.tv.settings.v2.sleep.SleepTimerBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.permission.CALL_GO_TO_SLEEP"
     ],
     [
@@ -28027,31 +28027,31 @@
     [
      "service",
      "com.amazon.tv.settings.v2.provider.AccessibilityProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.settings.v2.provider.AccessibilityFSFProvider",
-     "",
+     "exp",
      "com.fireos.sdk.ftve.USE_SDK"
     ],
     [
      "service",
      "com.amazon.tv.settings.v2.provider.PictureSettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.settings.v2.provider.AudioSettingsProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.settings.v2.provider.SleepTimerProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -28111,7 +28111,7 @@
     [
      "service",
      "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
-     "",
+     "exp",
      null
     ],
     [
@@ -28141,13 +28141,13 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "service",
      "com.amazon.firecard.producer.ProducerCallbackService",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
@@ -28201,7 +28201,7 @@
     [
      "service",
      "com.amazon.tv.easyupgradeclientlib.restore.RestorationService",
-     "",
+     "exp",
      "com.amazon.tv.easyupgrade.permission.BIND_CLIENT"
     ],
     [
@@ -28219,7 +28219,7 @@
     [
      "service",
      "com.amazon.storage.rro.service.RROService",
-     "",
+     "exp",
      "com.amazon.permission.START_RRO_SERVICE"
     ],
     [
@@ -28249,7 +28249,7 @@
     [
      "service",
      "androidx.work.impl.background.systemjob.SystemJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
@@ -28612,37 +28612,37 @@
     [
      "receiver",
      "com.amazon.tv.turnstile.broadcastreceivers.NeoEventMessagingReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "activity",
      "com.amazon.tv.turnstile.authentication.JpakePinActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.tv.turnstile.authentication.PinAuthenticationManager$AuthenticationEventReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.tv.turnstile.authentication.UserAgentScreenConfirmationActivity",
-     "",
+     "exp",
      "com.amazon.storm.lightning.permission.ALLOW_AUTHENTICATION"
     ],
     [
      "receiver",
      "com.amazon.tv.turnstile.authentication.UserAgentScreenConfirmationManager$ConfirmationEventReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.tv.turnstile.server.RseService",
-     "",
+     "exp",
      null
     ]
    ],
@@ -28684,7 +28684,7 @@
     [
      "activity",
      "com.amazon.tv.website_launcher.activity.MainActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -28997,31 +28997,31 @@
     [
      "receiver",
      "com.amazon.mas.client.authentication.AuthenticationChangeReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "provider",
      "com.amazon.mas.client.locker.LockerProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.venezia.deviceinfo.DeviceInfoProvider",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.mas.client.autodeliver.preload.service.PreloadService",
-     "",
+     "exp",
      "com.amazon.mas.client.PRELOAD_SERVICE_PERMISSION"
     ],
     [
      "receiver",
      "com.amazon.mas.client.s2dm.S2DMReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -29093,19 +29093,19 @@
     [
      "activity",
      "com.amazon.venezia.deeplink.UriMatchActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.contextmenu.AppstoreContextMenuRoutingActivity",
-     "",
+     "exp",
      "com.amazon.venezia.pdi.APP_OPEN"
     ],
     [
      "activity",
      "com.amazon.venezia.pdi.AppLaunchActivity",
-     "",
+     "exp",
      "com.amazon.venezia.DEEP_LINK_TO_3P_APP"
     ],
     [
@@ -29129,7 +29129,7 @@
     [
      "service",
      "com.amazon.android.csf.StubAccountAuthenticator$StubAuthenticatorService",
-     "",
+     "exp",
      null
     ],
     [
@@ -29267,37 +29267,37 @@
     [
      "activity",
      "com.amazon.venezia.grid.AppsGridActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.category.CategoryGridActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.planpicker.ui.PlanPickerLauncherActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.appinfopage.ui.AppInfoPageActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.differencedetails.ui.DifferenceDetailsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.servicedetailspage.ui.ServiceDetailsPageActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -29309,7 +29309,7 @@
     [
      "receiver",
      "com.amazon.venezia.category.CategoryGridBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.venezia.permission.CATEGORIES_SUBNAV"
     ],
     [
@@ -29321,25 +29321,25 @@
     [
      "activity",
      "com.amazon.venezia.appbundle.AppBundleActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.grid.AppsGridLauncherActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.details.AppDetailsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.venezia.dialog.GeneralDialogActivity",
-     "",
+     "exp",
      "com.amazon.venezia.DEEP_LINK_TO_3P_APP"
     ],
     [
@@ -29375,7 +29375,7 @@
     [
      "activity",
      "com.amazon.venezia.dialog.InterstitialErrorDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -29393,7 +29393,7 @@
     [
      "activity",
      "com.amazon.venezia.dialog.AuthenticationErrorDialogActivity",
-     "",
+     "exp",
      "com.amazon.venezia.pdi.APP_OPEN"
     ],
     [
@@ -29405,13 +29405,13 @@
     [
      "activity",
      "com.amazon.venezia.settings.AppSettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.venezia.settings.AppSettingsContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -29435,7 +29435,7 @@
     [
      "activity",
      "com.amazon.mas.client.iap.modifysubscription.ModifySubscriptionActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -29447,7 +29447,7 @@
     [
      "activity",
      "com.amazon.mas.client.iap.purchase.PurchaseActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -29465,7 +29465,7 @@
     [
      "activity",
      "com.amazon.mas.client.iap.purchaseitems.PurchaseItemsActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -29507,7 +29507,7 @@
     [
      "service",
      "com.amazon.venezia.AmzCallbackService",
-     "",
+     "exp",
      "com.lab126.downloads.DOWNLOAD_CALLBACK_SVC"
     ],
     [
@@ -29519,13 +29519,13 @@
     [
      "receiver",
      "com.amazon.mas.client.safemode.SafeModeBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.mas.client.framework.SAFEMODE_ACCESS"
     ],
     [
      "service",
      "com.amazon.mas.client.safemode.service.SafeModeService",
-     "",
+     "exp",
      "com.amazon.mas.client.framework.SAFEMODE_ACCESS"
     ],
     [
@@ -29549,7 +29549,7 @@
     [
      "provider",
      "com.amazon.venezia.deviceinfo.SearchContextProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -29573,7 +29573,7 @@
     [
      "receiver",
      "com.amazon.venezia.ftue.PlatformFtueReceiver",
-     "",
+     "exp",
      "com.amazon.kindle.tablet.permission.ftue"
     ],
     [
@@ -29585,7 +29585,7 @@
     [
      "receiver",
      "com.amazon.venezia.ftue.AuthenticationChangedReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
@@ -29675,7 +29675,7 @@
     [
      "receiver",
      "com.amazon.venezia.notifications.tvesso.TVESSONotificationIngressBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.venezia.permission.CREATE_NOTIFICATION"
     ],
     [
@@ -29693,37 +29693,37 @@
     [
      "service",
      "com.amazon.venezia.d12.D12RemoteLaunchIntentService",
-     "",
+     "exp",
      "com.amazon.venezia.permission.D12_REMOTE_LAUNCH"
     ],
     [
      "receiver",
      "com.amazon.venezia.simclient.DirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.venezia.device.AppstoreDeviceBootCompletedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.venezia.device.AppstoreDeviceBootCompletedEspressoShotReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.venezia.content.SyncContentReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
      "receiver",
      "com.amazon.venezia.oobe.OobeBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.venezia.service.OOBE_IPC"
     ],
     [
@@ -29753,25 +29753,25 @@
     [
      "service",
      "com.amazon.mas.client.pdiservice.PdiServiceExposed",
-     "",
+     "exp",
      "com.amazon.mas.client.pdiservice.INVOKE_PDI_SERVICE_com.amazon.venezia"
     ],
     [
      "service",
      "com.amazon.mas.client.install.service.InstallServiceExposed",
-     "",
+     "exp",
      "com.amazon.mas.client.install.INVOKE_INSTALL_SERVICE_com.amazon.venezia"
     ],
     [
      "receiver",
      "com.amazon.venezia.profiles.ProfileEventsReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.venezia.offload.OffloadPackageCacheClearResultReceiver",
-     "",
+     "exp",
      "com.amazon.tv.settings.permission.BIND_CORE_SETTINGS"
     ],
     [
@@ -29789,7 +29789,7 @@
     [
      "activity",
      "com.amazon.venezia.ade.ADEHomeActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -29807,7 +29807,7 @@
     [
      "receiver",
      "com.amazon.venezia.card.producer.LauncherCardReceiver",
-     "",
+     "exp",
      "com.amazon.tv.launcher.permission.SEND_CARDS_INTENT"
     ],
     [
@@ -29831,19 +29831,19 @@
     [
      "receiver",
      "com.amazon.venezia.card.producer.CardProducerReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.venezia.card.producer.VeneziaProducerEventReceiver",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
      "service",
      "com.amazon.firecard.producer.ProducerCallbackService",
-     "",
+     "exp",
      "com.amazon.firecard.permission.PRODUCER_CALLBACK_ACCESS"
     ],
     [
@@ -29861,25 +29861,25 @@
     [
      "receiver",
      "com.amazon.venezia.card.producer.LibraryItemLaunchedReceiver",
-     "",
+     "exp",
      "com.amazon.venezia.permission.LIBRARY_ITEM_LAUNCHED"
     ],
     [
      "service",
      "com.amazon.venezia.card.producer.VeneziaCardMakerBoundService",
-     "",
+     "exp",
      "com.amazon.venezia.permission.BIND"
     ],
     [
      "service",
      "com.amazon.identity.auth.accounts.MAPSubAuthenticatorService",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.mas.client.authentication.mapr5sso.MASClientMAPInformationProvider",
-     "",
+     "exp",
      "com.amazon.identity.permission.CAN_CALL_MAP_INFORMATION_PROVIDER"
     ],
     [
@@ -29903,7 +29903,7 @@
     [
      "receiver",
      "com.amazon.mas.client.pfmcor.PfmCorServiceReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
@@ -30161,13 +30161,13 @@
     [
      "receiver",
      "com.amazon.mas.client.pdiservice.PdiBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.mas.client.pdiservice.PDIEventStatusBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30203,37 +30203,37 @@
     [
      "provider",
      "com.amazon.mas.client.download.query.DownloadQueueProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.mas.client.install.queue.InstallQueueProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.mas.client.locker.LockerBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia"
     ],
     [
      "receiver",
      "com.amazon.mas.client.locker.receiver.GlobalSyncBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
      "receiver",
      "com.amazon.mas.client.locker.receiver.LockerSystemEventsBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.mas.client.locker.receiver.LockerExposedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.mas.client.GLOBAL_BROADCAST_com.amazon.venezia"
     ],
     [
@@ -30251,31 +30251,31 @@
     [
      "receiver",
      "com.amazon.acc.catalog.refresh.ACCAppUpdateNotificationReceiver",
-     "",
+     "exp",
      "com.amazon.alexa.datastore.permission.PASSIVE_NOTIFICATION"
     ],
     [
      "provider",
      "com.amazon.mas.client.locker.LockerExternalProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.mas.client.licensing.LicensingProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.venezia.command.shared.AuthTokenProvider",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.mas.client.authentication.AccountInformationProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -30305,7 +30305,7 @@
     [
      "service",
      "com.amazon.venezia.service.command.CommandServiceImpl",
-     "",
+     "exp",
      null
     ],
     [
@@ -30377,7 +30377,7 @@
     [
      "receiver",
      "com.amazon.mas.client.appupdateservice.PackageStateReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30419,7 +30419,7 @@
     [
      "provider",
      "com.amazon.venezia.deviceinfo.DeviceInfoCookieProvider",
-     "",
+     "exp",
      "com.amazon.mas.client.CONTENT_PROVIDER_READ_com.amazon.venezia"
     ],
     [
@@ -30431,7 +30431,7 @@
     [
      "receiver",
      "com.amazon.mas.client.install.background.AndroidPackageBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30503,19 +30503,19 @@
     [
      "service",
      "com.amazon.mas.clientplatform.debug.PDIUpdateClientTestService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.mas.client.autodeliver.preload.receiver.PreloadBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.mas.clientplatform.pdi.neo.NeoWakeUpReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30539,7 +30539,7 @@
     [
      "receiver",
      "com.amazon.venezia.data.client.avdeviceproxy.AVBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.tv.subscription.permission.FBA_SUBSCRIPTION_SIGNUP"
     ],
     [
@@ -30551,7 +30551,7 @@
     [
      "provider",
      "com.amazon.mas.client.apps.AppManagerContentProvider",
-     "",
+     "exp",
      null
     ],
     [
@@ -30563,25 +30563,25 @@
     [
      "receiver",
      "com.amazon.mas.client.apps.AppManagerBroadcastReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "provider",
      "com.amazon.mas.client.apps.LibraryContentProvider",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.mas.client.apps.NaatyamBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.naatyam.permission.CONFIG_CHANGE_PUBLISH"
     ],
     [
      "receiver",
      "com.amazon.mas.client.apps.order.LibraryOrderReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30599,7 +30599,7 @@
     [
      "receiver",
      "com.amazon.mas.client.apps.notificationDots.NotificationDotsReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30611,7 +30611,7 @@
     [
      "receiver",
      "com.amazon.venezia.data.utils.AdultContentSettingChangeReceiver",
-     "",
+     "exp",
      "com.amazon.tv.parentalcontrols.permission.PARENTAL_CONTROLS"
     ],
     [
@@ -30671,7 +30671,7 @@
     [
      "receiver",
      "com.amazon.venezia.arcus.config.ArcusSyncReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
@@ -30695,13 +30695,13 @@
     [
      "activity",
      "com.amazon.tv.activity.FontDemo",
-     "",
+     "exp",
      "com.amazon.tv.permission.LAUNCHER_SETTINGS"
     ],
     [
      "receiver",
      "com.amazon.appstorecrosssurfacelocalisation.client.broadcast.MAPCorPfmChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
@@ -30713,25 +30713,25 @@
     [
      "service",
      "com.amazon.client.metrics.nexus.UploadJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "receiver",
      "com.amazon.firetvplacement.client.map.MAPCorPfmChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
      "receiver",
      "com.amazon.ftvxp.appstoretvservice.client.map.MAPCorPfmChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
      "activity",
      "com.amazon.mas.client.iap.consent.ConsentActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -30755,7 +30755,7 @@
     [
      "service",
      "com.amazon.tv.ftvpresetupclientlib.PreSetupService",
-     "",
+     "exp",
      "com.amazon.tv.ftvpresetupclientlib.permission.BIND_CLIENT"
     ],
     [
@@ -30785,7 +30785,7 @@
     [
      "activity",
      "com.amazon.juggler.settings.tv.JugglerSettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -30803,19 +30803,19 @@
     [
      "receiver",
      "com.amazon.ftvxp.service.ForceSyncBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.permission.GLOBAL_SYNC"
     ],
     [
      "activity",
      "com.amazon.mas.client.ssi.tv.activity.SSIConsentDialogActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "com.amazon.mas.client.ssi.tv.activity.SSIShowLoginSelectionScreenActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -30827,7 +30827,7 @@
     [
      "receiver",
      "com.amazon.cirrus.client.map.MAPCorPfmChangedBroadcastReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.MANAGE_COR_PFM"
     ],
     [
@@ -30857,7 +30857,7 @@
     [
      "receiver",
      "com.amazon.juggler.settings.S2dmMessageReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -30881,7 +30881,7 @@
     [
      "receiver",
      "com.amazon.mas.client.parentalcontrols.settings.OOBEExperienceReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -30893,19 +30893,19 @@
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -30917,25 +30917,25 @@
     [
      "activity",
      "androidx.activity.ComponentActivity",
-     "",
+     "exp",
      null
     ],
     [
      "activity",
      "androidx.compose.ui.tooling.PreviewActivity",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
      "receiver",
      "androidx.tracing.perfetto.TracingReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ],
     [
@@ -31496,7 +31496,7 @@
     [
      "service",
      "amazon.speech.sim.service.SpeechInteractionService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -31544,7 +31544,7 @@
     [
      "receiver",
      "com.amazon.alexa.timeoutmanager.receiver.BootCompletedReceiver",
-     "",
+     "exp",
      null
     ],
     [
@@ -31556,13 +31556,13 @@
     [
      "service",
      "com.amazon.alexa.androidapplicationagent.AlexaAndroidApplicationAgentService",
-     "",
+     "exp",
      "com.amazon.alexa.device.application.permission.BIND_PERMISSION"
     ],
     [
      "service",
      "com.amazon.alexa.androidapplicationagent.capabilityagent.CapabilityAgentService",
-     "",
+     "exp",
      "com.amazon.alexa.router.capabilityagent.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -31574,13 +31574,13 @@
     [
      "receiver",
      "com.amazon.alexa.androidapplicationagent.receivers.CommonServiceProxyingBroadcastReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "receiver",
      "com.amazon.alexa.androidapplicationagent.receivers.DirectiveReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -31592,31 +31592,31 @@
     [
      "receiver",
      "com.amazon.alexa.androidapplicationagent.receivers.EndpointStatusDebugReceiver",
-     "",
+     "exp",
      "com.amazon.alexa.app_agent_api.permission.DEBUG_AGENT_PERMISSION"
     ],
     [
      "service",
      "com.amazon.alexa.androidapplicationagent.kenobi_lite.KenobiLiteApplicationAgentService",
-     "",
+     "exp",
      "com.amazon.alexa.app_agent_api.permission.BIND_AGENT_PERMISSION"
     ],
     [
      "service",
      "com.amazon.alexa.androidapplicationagent.kenobi_lite.KenobiLiteApplicationAgentLegacyService",
-     "",
+     "exp",
      "com.amazon.alexa.vsk_app_agent_api.permission.BIND_SERVICE_PERMISSION"
     ],
     [
      "receiver",
      "com.amazon.alexa.androidapplicationagent.receivers.AlexaConnectivityReceiver",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
      "service",
      "com.amazon.alexa.uicontrollermanager.UIControllerManagerService",
-     "",
+     "exp",
      "com.amazon.alexa.uicontrollermanager.permission.BIND_PERMISSION"
     ],
     [
@@ -31682,7 +31682,7 @@
     [
      "service",
      "com.amazon.identity.auth.device.bootstrapSSO.BootstrapSSOService",
-     "",
+     "exp",
      null
     ],
     [
@@ -31712,7 +31712,7 @@
     [
      "service",
      "amazon.speech.simclient.presentation.AlexaPresentationService",
-     "",
+     "exp",
      "amazon.speech.permission.ALEXA_PRESENTATION"
     ],
     [
@@ -31742,25 +31742,25 @@
     [
      "service",
      "com.amazon.alexa.timeoutmanager.TimeoutService",
-     "",
+     "exp",
      "amazon.alexa.timeout.TIMEOUT_OPERATIONS"
     ],
     [
      "service",
      "com.amazon.alexa.timeoutmanager.configuration.ArcusSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.alexa.timeoutmanagergobackclient.GoBackService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "service",
      "com.amazon.customizableshortcut.CustomizableShortcutService",
-     "",
+     "exp",
      "com.amazon.customizableshortcut.EXECUTE"
     ],
     [
@@ -31778,7 +31778,7 @@
     [
      "receiver",
      "amazon.speech.wakewordmanager.certification.VoiceInjectionHandler",
-     "",
+     "exp",
      "android.permission.CHANGE_CONFIGURATION"
     ],
     [
@@ -31814,7 +31814,7 @@
     [
      "activity",
      "com.amazon.vizzini.vim.VizziniSettingsActivity",
-     "",
+     "exp",
      null
     ],
     [
@@ -31838,7 +31838,7 @@
     [
      "activity",
      "com.amazon.vizzini.customizableshortcuts.ShortcutAssignmentActivity",
-     "",
+     "exp",
      "com.amazon.customizableshortcut.SHORTCUT_ASSIGNMENT"
     ],
     [
@@ -31856,19 +31856,19 @@
     [
      "service",
      "com.amazon.vizzini.voiceservice.SpeechToTextService",
-     "",
+     "exp",
      "com.amazon.vizzini.SPEECH_RECOGNIZER"
     ],
     [
      "service",
      "com.amazon.vizzini.voiceservice.dismissal.VizziniDismissalService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "service",
      "com.amazon.vizzini.vim.speechui.SpeechUiService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_ALEXA_DIRECTIVE"
     ],
     [
@@ -31880,25 +31880,25 @@
     [
      "service",
      "com.amazon.simclient.alexaspeechmarks.AlexaSpeechMarksService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
      "service",
      "amazon.speech.audiostreamproviderservice.AudioStreamProviderService",
-     "",
+     "exp",
      "amazon.speech.permission.ACCESS_ASPS"
     ],
     [
      "service",
      "com.amazon.vizzini.voiceservice.discreetbehavior.FireTVWindowService",
-     "",
+     "exp",
      "amazon.speech.permission.ALEXA_DISPLAY"
     ],
     [
      "service",
      "com.amazon.vizzini.voiceservice.skillconnections.FireTVSkillConnectionsAndroidService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -31916,13 +31916,13 @@
     [
      "provider",
      "com.amazon.vizzini.config.ConfigContentProvider",
-     "",
+     "exp",
      "com.amazon.vizzini.USES_VIZZINI_PROVIDER"
     ],
     [
      "provider",
      "com.amazon.vizzini.locale.supported.AlexaSupportedLocalesProvider",
-     "",
+     "exp",
      "com.amazon.vizzini.USES_VIZZINI_PROVIDER"
     ],
     [
@@ -31940,7 +31940,7 @@
     [
      "service",
      "amazon.simclient.metrics.upl.server.UplMetricsService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -32006,7 +32006,7 @@
     [
      "service",
      "amazon.speech.sim.service.TelemetryService",
-     "",
+     "exp",
      "amazon.speech.permission.SEND_DATA_TO_ALEXA"
     ],
     [
@@ -32121,7 +32121,7 @@
     "com.amazon.voice.dismissal.BIND"
    ],
    "home": false,
-   "persistent": false,
+   "persistent": true,
    "targets": [
     "com.amazon.alexa.androidapplicationagent.version",
     "com.amazon.alexa.app_agent_api.version",
@@ -32188,31 +32188,31 @@
     [
      "activity",
      "com.amazon.whasettings.MainActivity",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "activity-alias",
      "com.amazon.whasettings.pairing.HomeTheaterPairingActivity",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "service",
      "com.amazon.whasettings.hometheater.QualityNotifierService",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "service",
      "com.amazon.whasettings.bundle.BundleLaunchService",
-     "",
+     "exp",
      "com.amazon.whas.API_COMMUNICATION"
     ],
     [
      "receiver",
      "com.amazon.whasettings.notification.FFPNotificationReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -32224,7 +32224,7 @@
     [
      "receiver",
      "androidx.profileinstaller.ProfileInstallReceiver",
-     "",
+     "exp",
      "android.permission.DUMP"
     ]
    ],
@@ -32314,37 +32314,37 @@
     [
      "receiver",
      "com.amazon.whisperjoin.middleware.receivers.BootCompleteReceiver",
-     "",
+     "exp",
      "android.permission.RECEIVE_BOOT_COMPLETED"
     ],
     [
      "receiver",
      "com.amazon.whisperjoin.middleware.receivers.PrimaryAccountChangedReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.sso.permission.account.changed"
     ],
     [
      "receiver",
      "com.amazon.whisperjoin.middleware.receivers.MiddlewareServiceReceiver",
-     "",
+     "exp",
      "com.amazon.whisperjoin.middleware.PERMISSION"
     ],
     [
      "receiver",
      "com.amazon.whisperjoin.middleware.receivers.LocaleChangedReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "receiver",
      "com.amazon.whisperjoin.middleware.receivers.SyncCredentialsS2DMMessageReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
      "receiver",
      "com.amazon.whisperjoin.deviceprovisioningservicescap.DeviceSetupS2DMMessageReceiver",
-     "",
+     "exp",
      "com.amazon.dcp.messaging.permission.INITIATE_HANDLE_DEVICE_MESSAGE"
     ],
     [
@@ -32356,37 +32356,37 @@
     [
      "receiver",
      "com.amazon.whisperjoin.servicecommon.smarthome.RefreshCredentialsReceiver",
-     "",
+     "exp",
      "com.amazon.whisperjoin.provisioner.zigbee.CREDENTIALS_SYNC_PERMISSION"
     ],
     [
      "receiver",
      "com.amazon.whisperjoin.deviceprovisioningservicescap.receivers.DSSEndpointReceiver",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.whisperjoin.middleware.services.MiddlewareService",
-     "",
+     "exp",
      null
     ],
     [
      "service",
      "com.amazon.whisperjoin.deviceprovisioningservicescap.ScapBackgroundProvisioningServiceBinder",
-     "",
+     "exp",
      "com.amazon.whisperjoin.deviceprovisioningservicescap.BINDER_PERMISSION"
     ],
     [
      "service",
      "com.amazon.whisperjoin.servicecommon.smarthome.AssociatedCredentialsSyncService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ],
     [
      "service",
      "com.amazon.whisperjoin.servicecommon.arcus.FFSArcusSyncJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ]
    ],
@@ -32423,7 +32423,7 @@
     [
      "service",
      ".MarketplaceJobService",
-     "",
+     "exp",
      "android.permission.BIND_JOB_SERVICE"
     ]
    ],

@@ -18,9 +18,18 @@ def parse(p):
         else:
             mm=re.match(r'(?:\S+:)?(\w+)(?:\(0x[0-9a-f]+\))?=(.*)$',t.split('android:')[-1] if 'android:' in t else t)
             if mm:
-                v=mm.group(2);v2=re.match(r'"([^"]*)"',v);v=v2.group(1) if v2 else v.split(' ')[0]
+                v=mm.group(2);v2=re.match(r'"([^"]*)"',v)
+                if v2: v=v2.group(1)
+                else:
+                    # aapt2 prefixes typed values with their type, e.g. `(type 0x12)0xffffffff`; dropping only at the
+                    # first space left v == "(type" and silently broke every boolean attribute.
+                    v=re.sub(r'^\(type 0x[0-9a-f]+\)','',v).split(' ')[0]
                 stack[-1][1]['attrs'][mm.group(1)]=v
     return root
+def truthy(v):
+    """An aapt2 boolean attr, whatever form it came in: `true`, `0xffffffff`, or absent."""
+    return v in ('true','0xffffffff','1')
+
 def walk(n):
     yield n
     for k in n['kids']: yield from walk(k)
@@ -39,10 +48,10 @@ def entry(man,file):
         elif t=='permission': e['decl_perm'][a.get('name')]=a.get('protectionLevel')
         elif t in('uses-library','uses-static-library'): e['uses_lib'].append((a.get('name'),a.get('required','true')))
         elif t=='uses-feature' and a.get('name','').startswith('com.'): e['uses_feature'].append(a.get('name'))
-        elif t=='application': e['persistent']=a.get('persistent')=='0xffffffff'
+        elif t=='application': e['persistent']=truthy(a.get('persistent'))
         elif t in('activity','service','receiver','provider','activity-alias'):
             ex=a.get('exported');hasf=any(k['tag']=='intent-filter' for k in n['kids'])
-            e['components'].append((t,a.get('name'),'exp' if ex=='0xffffffff' or (ex is None and hasf) else '',a.get('permission')))
+            e['components'].append((t,a.get('name'),'exp' if (truthy(ex) or (ex is None and hasf)) else '',a.get('permission')))
             if t=='provider' and a.get('authorities'): e['authorities']+=a['authorities'].split(';')
         elif t=='action': e['actions'].add(a.get('name'))
         elif t=='category' and a.get('name')=='android.intent.category.HOME': e['home']=True

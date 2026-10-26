@@ -59,6 +59,14 @@ Stock: android (ResolverActivity), com.amazon.tv.launcher, com.amazon.firehomest
 | INVESTIGATE | `com.amazon.aca` | system_ext/priv-app/com.amazon.aca/com.amazon.aca.apk | 3 |  | R3 launcher, venezia, ambient |
 | INVESTIGATE | `com.amazon.adep` | system_ext/priv-app/com.amazon.adep/com.amazon.adep.apk | 0 |  | Unknown |
 | INVESTIGATE | `com.amazon.aiondec` | system_ext/priv-app/com.amazon.aiondec-stub/com.amazon.aiondec-stub.apk | 0 |  | Stub depending on vizzini+aria; purpose unknown |
+
+**`com.amazon.aiondec` is a stub on the image and a real app on the device.** The row above reads this from the system
+image alone, so it sees `com.amazon.aiondec-stub` with 0 components. On the stick the app has been pushed into `/data/app`
+(`versionName=1.0.385.0`, `codePath=/data/app/~~…/com.amazon.aiondec-…`), where it has 17 components, including
+`com.amazon.aiondec.activity.SkillConnectionActivity` and `SendTextActivity` behind `amzn://` — so `dumpsys package` and
+the device resolve activities the image index cannot show. Any package with an `/data` update behaves this way; treat the
+image as one source, not the truth about what is installed.
+
 | INVESTIGATE | `com.amazon.ale` | system_ext/priv-app/com.amazon.ale/com.amazon.ale.apk | 0 |  | Unknown |
 | INVESTIGATE | `com.amazon.alta.h2clientservice` | system_ext/priv-app/com.amazon.h2clientservice/com.amazon.h2clientservice.apk | 5 |  | H2 client; R5 incl. profilepicker chain (prism) |
 | INVESTIGATE | `com.amazon.android.marketplace` | system_ext/priv-app/marketplace_service_receiver/marketplace_service_receiver.apk | 0 |  | Marketplace receiver (system uid) |

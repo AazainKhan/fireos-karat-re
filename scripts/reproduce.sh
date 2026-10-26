@@ -39,6 +39,9 @@ find "$WORK/extracted" -path '*/etc/permissions/*.xml' -print0 \
 echo "[5/7] dependency graph"
 python3 "$REPO/scripts/graph.py" "$REPO/data/manifests.json" "$REPO/data/libs_features.txt" "$REPO/data/graph.json"
 python3 "$REPO/scripts/index_components.py" "$REPO/data/manifests.json" "$REPO/index"
+# Native symbols. Reads the extracted *.so directly (nm -D), so it needs nothing decompiled and no NDK. App-embedded
+# libs are absolute symlinks into /system/lib, so the platform libs must actually be extracted for them to resolve.
+python3 "$REPO/scripts/index_native.py" "$WORK/extracted" "$REPO/index"
 
 echo "[6/7] decompile every APK with code and every framework JAR (jadx, local only)"
 decompile() {  # $1 = output name, $2 = file

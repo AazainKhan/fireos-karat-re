@@ -19,6 +19,7 @@ Built for coding agents (Claude Code, Codex, Cursor…) and people building Fire
 | `index/actions.tsv` | Intent actions and categories each package handles | 2,057 |
 | `index/providers.tsv` | Content provider authorities | 191 |
 | `index/permissions.tsv` | Permissions each package declares, with protection level | 1,781 |
+| `index/native.tsv` | Native symbols from every shared object: `jni` entry points, `export`, `import` | 422,440 |
 | `data/manifests.json` | Full manifest DB (uses-permission, uses-library, components, authorities) | 280 |
 | `data/graph.json` | Dependency graph: who needs whom, and why (permission, library, meta-data) | |
 | `data/classification.tsv` | KEEP / REMOVE / INVESTIGATE verdict per package, with reason | |
@@ -90,6 +91,21 @@ For agents working on a Fire TV launcher, ROM or companion app:
 5. **Interoperate with casting.** Find the DIAL, Miracast and WhisperPlay receivers and their intents before adding an AirPlay or Cast receiver alongside.
    `grep -E "dialservice|cast.sink|whisperlink" index/actions.tsv`
 6. **Find the permission you need.** Which package declares a permission, and at what protection level, so you know if an APK can request it.
+
+## Native code
+
+`index/native.tsv` is `package, lib, kind, symbol`, from `nm -D` over every `*.so` in the extracted image - names only,
+no disassembly, and no NDK needed. `kind` is `jni` (a `Java_*` entry point, i.e. names the APK's `native` methods bind
+to), `export`, or `import` (an undefined symbol, so something else must supply it).
+
+Two things to know before trusting the `package` column:
+
+- Only the system image is indexed, so an app **updated into `/data`** appears as its component-less stub. `com.amazon.aiondec`
+  is the worked example: the image holds `com.amazon.aiondec-stub` (0 components) while the live app in `/data/app` has 17,
+  including `SkillConnectionActivity` and `SendTextActivity` behind `amzn://`. Dump the device's APK to see those.
+- `package` is set only where a lib sits **inside an app's directory**. Most app libs are shared platform libs under
+  `/system/lib` with no back-pointer, so they carry an empty package; 7 packages are attributed. Reading the `jni` and
+  `import` rows is still useful without it, and the Java index gives the app side.
    `grep -i bluetooth index/permissions.tsv`
 7. **Diff Fire OS updates.** Re-run on a newer OTA and `git diff index/` to see new components, actions and permissions.
 
